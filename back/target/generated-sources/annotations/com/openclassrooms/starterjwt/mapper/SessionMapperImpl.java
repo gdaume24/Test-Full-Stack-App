@@ -15,25 +15,11 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2024-12-21T18:28:26+0100",
-    comments = "version: 1.5.1.Final, compiler: javac, environment: Java 11.0.25 (Eclipse Adoptium)"
+    date = "2024-12-23T19:26:56+0100",
+    comments = "version: 1.5.1.Final, compiler: Eclipse JDT (IDE) 3.41.0.v20241217-1506, environment: Java 17.0.13 (Eclipse Adoptium)"
 )
 @Component
 public class SessionMapperImpl extends SessionMapper {
-
-    @Override
-    public List<Session> toEntity(List<SessionDto> dtoList) {
-        if ( dtoList == null ) {
-            return null;
-        }
-
-        List<Session> list = new ArrayList<Session>( dtoList.size() );
-        for ( SessionDto sessionDto : dtoList ) {
-            list.add( toEntity( sessionDto ) );
-        }
-
-        return list;
-    }
 
     @Override
     public List<SessionDto> toDto(List<Session> entityList) {
@@ -50,6 +36,20 @@ public class SessionMapperImpl extends SessionMapper {
     }
 
     @Override
+    public List<Session> toEntity(List<SessionDto> dtoList) {
+        if ( dtoList == null ) {
+            return null;
+        }
+
+        List<Session> list = new ArrayList<Session>( dtoList.size() );
+        for ( SessionDto sessionDto : dtoList ) {
+            list.add( toEntity( sessionDto ) );
+        }
+
+        return list;
+    }
+
+    @Override
     public Session toEntity(SessionDto sessionDto) {
         if ( sessionDto == null ) {
             return null;
@@ -58,10 +58,10 @@ public class SessionMapperImpl extends SessionMapper {
         Session.SessionBuilder session = Session.builder();
 
         session.description( sessionDto.getDescription() );
+        session.createdAt( sessionDto.getCreatedAt() );
+        session.date( sessionDto.getDate() );
         session.id( sessionDto.getId() );
         session.name( sessionDto.getName() );
-        session.date( sessionDto.getDate() );
-        session.createdAt( sessionDto.getCreatedAt() );
         session.updatedAt( sessionDto.getUpdatedAt() );
 
         session.teacher( sessionDto.getTeacher_id() != null ? this.teacherService.findById(sessionDto.getTeacher_id()) : null );
@@ -80,10 +80,10 @@ public class SessionMapperImpl extends SessionMapper {
 
         sessionDto.setDescription( session.getDescription() );
         sessionDto.setTeacher_id( sessionTeacherId( session ) );
+        sessionDto.setCreatedAt( session.getCreatedAt() );
+        sessionDto.setDate( session.getDate() );
         sessionDto.setId( session.getId() );
         sessionDto.setName( session.getName() );
-        sessionDto.setDate( session.getDate() );
-        sessionDto.setCreatedAt( session.getCreatedAt() );
         sessionDto.setUpdatedAt( session.getUpdatedAt() );
 
         sessionDto.setUsers( Optional.ofNullable(session.getUsers()).orElseGet(Collections::emptyList).stream().map(u -> u.getId()).collect(Collectors.toList()) );

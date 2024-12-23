@@ -45,10 +45,12 @@ public class User {
   private String firstName;
 
   @NonNull
+  @Column(name = "password")
   @Size(max = 120)
   private String password;
 
   @NonNull
+  @Column(name = "admin")
   private boolean admin;
 
   @CreatedDate

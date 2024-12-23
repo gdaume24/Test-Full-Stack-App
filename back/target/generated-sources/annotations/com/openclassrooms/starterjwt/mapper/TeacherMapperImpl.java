@@ -9,8 +9,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2024-12-21T18:28:27+0100",
-    comments = "version: 1.5.1.Final, compiler: javac, environment: Java 11.0.25 (Eclipse Adoptium)"
+    date = "2024-12-23T17:04:07+0100",
+    comments = "version: 1.5.1.Final, compiler: Eclipse JDT (IDE) 3.41.0.v20241217-1506, environment: Java 17.0.13 (Eclipse Adoptium)"
 )
 @Component
 public class TeacherMapperImpl implements TeacherMapper {
@@ -23,10 +23,10 @@ public class TeacherMapperImpl implements TeacherMapper {
 
         Teacher.TeacherBuilder teacher = Teacher.builder();
 
+        teacher.createdAt( dto.getCreatedAt() );
+        teacher.firstName( dto.getFirstName() );
         teacher.id( dto.getId() );
         teacher.lastName( dto.getLastName() );
-        teacher.firstName( dto.getFirstName() );
-        teacher.createdAt( dto.getCreatedAt() );
         teacher.updatedAt( dto.getUpdatedAt() );
 
         return teacher.build();
@@ -40,10 +40,10 @@ public class TeacherMapperImpl implements TeacherMapper {
 
         TeacherDto teacherDto = new TeacherDto();
 
+        teacherDto.setCreatedAt( entity.getCreatedAt() );
+        teacherDto.setFirstName( entity.getFirstName() );
         teacherDto.setId( entity.getId() );
         teacherDto.setLastName( entity.getLastName() );
-        teacherDto.setFirstName( entity.getFirstName() );
-        teacherDto.setCreatedAt( entity.getCreatedAt() );
         teacherDto.setUpdatedAt( entity.getUpdatedAt() );
 
         return teacherDto;

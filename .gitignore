@@ -1,3 +1,3 @@
 back/.env
-# back/src/main/resources/env
+db/.env
 back/mvn script.bat

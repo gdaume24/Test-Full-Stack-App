@@ -9,45 +9,11 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2024-12-24T14:41:57+0100",
+    date = "2024-12-25T18:08:27+0100",
     comments = "version: 1.5.1.Final, compiler: Eclipse JDT (IDE) 3.41.0.v20241217-1506, environment: Java 17.0.13 (Eclipse Adoptium)"
 )
 @Component
 public class UserMapperImpl implements UserMapper {
-
-    @Override
-    public UserDto toDto(User entity) {
-        if ( entity == null ) {
-            return null;
-        }
-
-        UserDto userDto = new UserDto();
-
-        userDto.setAdmin( entity.isAdmin() );
-        userDto.setCreatedAt( entity.getCreatedAt() );
-        userDto.setEmail( entity.getEmail() );
-        userDto.setFirstName( entity.getFirstName() );
-        userDto.setId( entity.getId() );
-        userDto.setLastName( entity.getLastName() );
-        userDto.setPassword( entity.getPassword() );
-        userDto.setUpdatedAt( entity.getUpdatedAt() );
-
-        return userDto;
-    }
-
-    @Override
-    public List<UserDto> toDto(List<User> entityList) {
-        if ( entityList == null ) {
-            return null;
-        }
-
-        List<UserDto> list = new ArrayList<UserDto>( entityList.size() );
-        for ( User user : entityList ) {
-            list.add( toDto( user ) );
-        }
-
-        return list;
-    }
 
     @Override
     public User toEntity(UserDto dto) {
@@ -70,6 +36,26 @@ public class UserMapperImpl implements UserMapper {
     }
 
     @Override
+    public UserDto toDto(User entity) {
+        if ( entity == null ) {
+            return null;
+        }
+
+        UserDto userDto = new UserDto();
+
+        userDto.setAdmin( entity.isAdmin() );
+        userDto.setCreatedAt( entity.getCreatedAt() );
+        userDto.setEmail( entity.getEmail() );
+        userDto.setFirstName( entity.getFirstName() );
+        userDto.setId( entity.getId() );
+        userDto.setLastName( entity.getLastName() );
+        userDto.setPassword( entity.getPassword() );
+        userDto.setUpdatedAt( entity.getUpdatedAt() );
+
+        return userDto;
+    }
+
+    @Override
     public List<User> toEntity(List<UserDto> dtoList) {
         if ( dtoList == null ) {
             return null;
@@ -78,6 +64,20 @@ public class UserMapperImpl implements UserMapper {
         List<User> list = new ArrayList<User>( dtoList.size() );
         for ( UserDto userDto : dtoList ) {
             list.add( toEntity( userDto ) );
+        }
+
+        return list;
+    }
+
+    @Override
+    public List<UserDto> toDto(List<User> entityList) {
+        if ( entityList == null ) {
+            return null;
+        }
+
+        List<UserDto> list = new ArrayList<UserDto>( entityList.size() );
+        for ( User user : entityList ) {
+            list.add( toDto( user ) );
         }
 
         return list;

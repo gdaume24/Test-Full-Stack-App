@@ -15,25 +15,11 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2024-12-24T14:41:57+0100",
+    date = "2024-12-25T18:08:27+0100",
     comments = "version: 1.5.1.Final, compiler: Eclipse JDT (IDE) 3.41.0.v20241217-1506, environment: Java 17.0.13 (Eclipse Adoptium)"
 )
 @Component
 public class SessionMapperImpl extends SessionMapper {
-
-    @Override
-    public List<SessionDto> toDto(List<Session> entityList) {
-        if ( entityList == null ) {
-            return null;
-        }
-
-        List<SessionDto> list = new ArrayList<SessionDto>( entityList.size() );
-        for ( Session session : entityList ) {
-            list.add( toDto( session ) );
-        }
-
-        return list;
-    }
 
     @Override
     public List<Session> toEntity(List<SessionDto> dtoList) {
@@ -44,6 +30,20 @@ public class SessionMapperImpl extends SessionMapper {
         List<Session> list = new ArrayList<Session>( dtoList.size() );
         for ( SessionDto sessionDto : dtoList ) {
             list.add( toEntity( sessionDto ) );
+        }
+
+        return list;
+    }
+
+    @Override
+    public List<SessionDto> toDto(List<Session> entityList) {
+        if ( entityList == null ) {
+            return null;
+        }
+
+        List<SessionDto> list = new ArrayList<SessionDto>( entityList.size() );
+        for ( Session session : entityList ) {
+            list.add( toDto( session ) );
         }
 
         return list;

@@ -11,6 +11,7 @@ import { expect } from '@jest/globals';
 import { SessionService } from 'src/app/services/session.service';
 
 import { LoginComponent } from './login.component';
+import { AuthService } from '../../services/auth.service';
 
 describe('LoginComponent', () => {
   let component: LoginComponent;
@@ -28,9 +29,9 @@ describe('LoginComponent', () => {
         MatIconModule,
         MatFormFieldModule,
         MatInputModule,
-        ReactiveFormsModule]
-    })
-      .compileComponents();
+        ReactiveFormsModule,
+      ],
+    }).compileComponents();
     fixture = TestBed.createComponent(LoginComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
@@ -38,5 +39,25 @@ describe('LoginComponent', () => {
 
   it('should create', () => {
     expect(component).toBeTruthy();
+  });
+
+  it('should call authService.login with correct data', () => {
+    let authSerivce = TestBed.inject(AuthService);
+    const mockLoginRequest = {
+      email: 'emile.goudot@yopmail.com',
+      password: 'testPass',
+    };
+    const mockResponse = {
+      token: 'testToken',
+      user: { id: '1', username: 'testUser' },
+    };
+
+    component.form.setValue(mockLoginRequest); // Simule la saisie dans le formulaire
+
+    jest.spyOn(authService, 'login').mockReturnValue(of(mockResponse)); // Simule une réponse réussie
+
+    component.submit();
+
+    expect(authService.login).toHaveBeenCalledWith(mockLoginRequest); // Vérifie l'appel avec les bonnes données
   });
 });

@@ -14,6 +14,7 @@ import { SessionService } from 'src/app/services/session.service';
 
 import { LoginComponent } from './login.component';
 import { AuthService } from '../../services/auth.service';
+import { SessionInformation } from 'src/app/interfaces/sessionInformation.interface';
 
 describe('LoginComponent', () => {
   let component: LoginComponent;
@@ -22,7 +23,7 @@ describe('LoginComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [LoginComponent],
-      providers: [SessionService],
+      providers: [SessionService, AuthService],
       imports: [
         RouterTestingModule,
         BrowserAnimationsModule,
@@ -65,7 +66,7 @@ describe('LoginComponent', () => {
       expect(passwordControl?.hasError('required')).toBeTruthy();
     });
 
-    it("should require a password with at least 3 characters", () => {
+    it('should be invalid with password shorter than 3 characters', () => {
       const passwordControl = component.form.get('password');
       passwordControl?.setValue('12');
       expect(passwordControl?.hasError('minlength')).toBeTruthy();
@@ -73,4 +74,44 @@ describe('LoginComponent', () => {
   });
 
   describe('submit', () => {
+    let authService: AuthService;
+    let router: Router;
+    let sessionService: SessionService;
+  
+    beforeEach(() => {
+      authService = TestBed.inject(AuthService);
+      router = TestBed.inject(Router);
+      sessionService = TestBed.inject(SessionService);
+    });
+
+    it("should login successfully", () => {
+      // Arrange
+      const mockSessionInfo: SessionInformation = {
+        token: 'fake-token',
+        type: 'Bearer',
+        id: 1,
+        username: 'test@example.com',
+        firstName: 'John',
+        lastName: 'Doe',
+        admin: false
+      };      
+      jest.spyOn(authService, 'login').mockReturnValue(of(mockSessionInfo));
+      const routerSpy = jest.spyOn(router, 'navigate');
+      const sessionServiceSpy = jest.spyOn(sessionService, 'logIn');
+
+      component.form.setValue({
+        email: 'test@example.com',
+        password: 'password123'
+      })
+      component.submit();
+      expect(routerSpy).toHaveBeenCalledWith(['/sessions']);
+      expect(sessionServiceSpy).toHaveBeenCalledWith(mockSessionInfo);
+      expect(authService.login).toHaveBeenCalledWith({
+        email: 'test@example.com',
+        password: 'password123'
+      });
+    });
+
+    
+  });
 });

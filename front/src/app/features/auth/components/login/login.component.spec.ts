@@ -73,7 +73,7 @@ describe('LoginComponent', () => {
     });
   });
 
-  describe('submit', () => {
+  describe('submit method', () => {
     let authService: AuthService;
     let router: Router;
     let sessionService: SessionService;
@@ -104,6 +104,7 @@ describe('LoginComponent', () => {
         password: 'password123'
       })
       component.submit();
+      expect(sessionService.isLogged).toBe(true);
       expect(routerSpy).toHaveBeenCalledWith(['/sessions']);
       expect(sessionServiceSpy).toHaveBeenCalledWith(mockSessionInfo);
       expect(authService.login).toHaveBeenCalledWith({
@@ -112,6 +113,31 @@ describe('LoginComponent', () => {
       });
     });
 
-    
+    it('should handle login failure with invalid credentials', () => {
+      // Arrange
+      const errorResponse = { error: 'Invalid credentials' };
+      jest.spyOn(authService, 'login').mockReturnValue(throwError(() => errorResponse));
+      
+      component.form.setValue({
+        email: 'test@example.com',
+        password: 'wrongpassword'
+      });
+
+      // Act
+      component.submit();
+
+      // Assert
+      expect(component.onError).toBe(true);
+    });
+
+    it('should show form validation errors when submitting empty form', () => {
+      // Act
+      component.submit();
+
+      // Assert
+      expect(component.form.get('email')?.errors?.['required']).toBeTruthy();
+      expect(component.form.get('password')?.errors?.['required']).toBeTruthy();
+      expect(component.onError).toBe(true);
+    });
   });
 });

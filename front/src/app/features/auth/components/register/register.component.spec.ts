@@ -9,6 +9,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { expect } from '@jest/globals';
 
 import { RegisterComponent } from './register.component';
+import { AuthService } from '../../services/auth.service';
+import { Router } from '@angular/router';
+import { of, throwError } from 'rxjs';
 
 describe('RegisterComponent', () => {
   let component: RegisterComponent;
@@ -36,5 +39,43 @@ describe('RegisterComponent', () => {
 
   it('should create', () => {
     expect(component).toBeTruthy();
+  });
+
+  describe("submit method", () => {
+    let authService: AuthService;
+    let router: Router;
+
+    beforeEach(() => {
+      authService = TestBed.inject(AuthService);
+      router = TestBed.inject(Router);
+      component.form.setValue({
+        email: 'test@example.com',
+        firstName: 'John',
+        lastName: 'Doe',
+        password: 'mypassword'
+      });
+    })
+
+    it("should register successfully", () => {
+      jest.spyOn(authService, 'register').mockReturnValue(of(void 0));
+      const routerSpy = jest.spyOn(router, 'navigate');
+
+      component.submit();
+      expect(authService.register).toHaveBeenCalledWith({
+        email: 'test@example.com',
+        firstName: 'John',
+        lastName: 'Doe',
+        password: 'mypassword'
+      });
+      expect(router.navigate).toHaveBeenCalledWith(['/login']);
+    });
+    it('should handle login failure with invalid credentials', () => {
+      jest.spyOn(authService, 'register').mockReturnValue(throwError(() => new Error()));
+
+      component.submit();
+
+      expect(component.onError).toBe(true);
+      
+    });
   });
 });

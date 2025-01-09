@@ -48,12 +48,6 @@ describe('RegisterComponent', () => {
     beforeEach(() => {
       authService = TestBed.inject(AuthService);
       router = TestBed.inject(Router);
-      component.form.setValue({
-        email: 'test@example.com',
-        firstName: 'John',
-        lastName: 'Doe',
-        password: 'mypassword'
-      });
     })
 
     it("should register successfully", () => {
@@ -70,12 +64,19 @@ describe('RegisterComponent', () => {
       expect(router.navigate).toHaveBeenCalledWith(['/login']);
     });
     it('should handle login failure with invalid credentials', () => {
-      jest.spyOn(authService, 'register').mockReturnValue(throwError(() => new Error()));
+      component.form.setValue({
+        email: '',
+        firstName: 'John',
+        lastName: 'Doe',
+        password: 'mypassword'
+      });
+      const emailControl = component.form.get('email');
+      expect(emailControl?.hasError('required')).toBeTruthy();
 
       component.submit();
 
       expect(component.onError).toBe(true);
-      
+
     });
   });
 });

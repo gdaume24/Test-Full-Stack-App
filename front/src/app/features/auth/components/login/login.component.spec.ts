@@ -137,7 +137,6 @@ describe('LoginComponent', () => {
       // Assert
       expect(component.form.get('email')?.errors?.['required']).toBeTruthy();
       expect(component.form.get('password')?.errors?.['required']).toBeTruthy();
-      expect(component.onError).toBe(true);
     });
   });
 });

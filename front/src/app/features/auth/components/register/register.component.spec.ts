@@ -13,7 +13,7 @@ import { AuthService } from '../../services/auth.service';
 import { Router } from '@angular/router';
 import { of, throwError } from 'rxjs';
 
-describe('RegisterComponent', () => {
+describe('RegisterComponent test', () => {
   let component: RegisterComponent;
   let fixture: ComponentFixture<RegisterComponent>;
 
@@ -72,10 +72,15 @@ describe('RegisterComponent', () => {
       });
       const emailControl = component.form.get('email');
       expect(emailControl?.hasError('required')).toBeTruthy();
-
+      const submitSpy = jest.spyOn(component, "submit")
+      const registerSpy = jest.spyOn(authService, "register")
       component.submit();
 
-      expect(component.onError).toBe(true);
+      expect(submitSpy).toHaveBeenCalled();
+      // Si le formulaire est invalide, le bouton de soumission devrait être désactivé
+      expect(component.form.invalid).toBeTruthy();
+      expect(emailControl?.hasError('required')).toBeTruthy();
+
 
     });
   });

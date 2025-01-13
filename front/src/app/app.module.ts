@@ -14,6 +14,7 @@ import { JwtInterceptor } from './interceptors/jwt.interceptor';
 import { MatCardModule } from '@angular/material/card';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MeComponent } from './components/me/me.component';
+import { AuthModule } from './features/auth/auth.module';
 
 const materialModule = [
   MatButtonModule,
@@ -35,7 +36,8 @@ const materialModule = [
     BrowserAnimationsModule, 
     FlexLayoutModule,
     HttpClientModule,
-    ...materialModule
+    ...materialModule,
+    AuthModule
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },

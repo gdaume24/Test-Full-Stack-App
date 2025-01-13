@@ -7,13 +7,14 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { expect } from '@jest/globals';
-
 import { RegisterComponent } from './register.component';
 import { AuthService } from '../../services/auth.service';
 import { Router } from '@angular/router';
-import { of, throwError } from 'rxjs';
+import { of } from 'rxjs';
+import { RouterTestingModule } from '@angular/router/testing';
+import { LoginComponent } from '../login/login.component';
 
-describe('RegisterComponent test', () => {
+describe('RegisterComponent', () => {
   let component: RegisterComponent;
   let fixture: ComponentFixture<RegisterComponent>;
 
@@ -27,7 +28,10 @@ describe('RegisterComponent test', () => {
         MatCardModule,
         MatFormFieldModule,
         MatIconModule,
-        MatInputModule
+        MatInputModule,
+        RouterTestingModule.withRoutes([
+          { path: "login", component: LoginComponent },
+        ])
       ]
     })
       .compileComponents();
@@ -44,17 +48,31 @@ describe('RegisterComponent test', () => {
   describe("submit method", () => {
     let authService: AuthService;
     let router: Router;
-
+    let formBuilder: FormBuilder;
+    
     beforeEach(() => {
       authService = TestBed.inject(AuthService);
       router = TestBed.inject(Router);
-    })
+      formBuilder = TestBed.inject(FormBuilder);
+    });
 
-    it("should register successfully", () => {
+    it("should call service with proper args and navigate to login page", () => {
+
+      // Arrange
       jest.spyOn(authService, 'register').mockReturnValue(of(void 0));
-      const routerSpy = jest.spyOn(router, 'navigate');
+      const navigateSpy = jest.spyOn(router, 'navigate');
+      navigateSpy.mockResolvedValue(true);
+      component.form.setValue({
+        email: 'test@example.com',
+        firstName: 'John',
+        lastName: 'Doe',
+        password: 'mypassword'
+      });
 
+      // Act
       component.submit();
+
+      // Assert
       expect(authService.register).toHaveBeenCalledWith({
         email: 'test@example.com',
         firstName: 'John',
@@ -63,25 +81,22 @@ describe('RegisterComponent test', () => {
       });
       expect(router.navigate).toHaveBeenCalledWith(['/login']);
     });
-    it('should handle login failure with invalid credentials', () => {
+    it('should not display submit button if form is invalid', () => {
+
+      // Arrange
       component.form.setValue({
         email: '',
         firstName: 'John',
         lastName: 'Doe',
         password: 'mypassword'
       });
-      const emailControl = component.form.get('email');
-      expect(emailControl?.hasError('required')).toBeTruthy();
-      const submitSpy = jest.spyOn(component, "submit")
-      const registerSpy = jest.spyOn(authService, "register")
+
+      // Act
       component.submit();
 
-      expect(submitSpy).toHaveBeenCalled();
       // Si le formulaire est invalide, le bouton de soumission devrait être désactivé
       expect(component.form.invalid).toBeTruthy();
-      expect(emailControl?.hasError('required')).toBeTruthy();
-
-
+      expect(component.form.get('email')?.hasError('required')).toBeTruthy();
     });
   });
 });

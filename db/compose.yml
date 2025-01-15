@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: db.dockerfile
     ports:
-      - "3306:3306"
+      - "3307:3306"
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
       MYSQL_USER: ${MYSQL_USERNAME}

@@ -3886,6 +3886,11 @@ cssstyle@^2.3.0:
   dependencies:
     cssom "~0.3.6"
 
+cypress-xpath@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.npmjs.org/cypress-xpath/-/cypress-xpath-2.0.1.tgz"
+  integrity sha512-qMagjvinBppNJdMAkucWESP9aP4rDTs7c96m0vwMuZTVx3NqP2E3z/hkoRf8Ea9soL8yTvUuuyF1cg/Sb1Yhbg==
+
 cypress@*, cypress@10.4.0:
   version "10.4.0"
   resolved "https://registry.npmjs.org/cypress/-/cypress-10.4.0.tgz"

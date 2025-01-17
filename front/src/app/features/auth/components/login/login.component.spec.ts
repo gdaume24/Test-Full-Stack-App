@@ -32,9 +32,6 @@ describe('LoginComponent', () => {
         MatFormFieldModule,
         MatInputModule,
         ReactiveFormsModule,
-        RouterTestingModule.withRoutes([
-          { path: "sessions", loadChildren: () => import('../../../sessions/sessions.module').then(m => m.SessionsModule) }
-        ])
       ],
     }).compileComponents();
     fixture = TestBed.createComponent(LoginComponent);

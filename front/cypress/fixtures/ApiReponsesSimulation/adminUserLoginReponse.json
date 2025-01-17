@@ -1,0 +1,9 @@
+{
+    "token": "blablabla",
+    "type": "JWT",
+    "id": 1,
+    "username": "Geoffroy Daumer",
+    "firstName": "Geoffroy",
+    "lastName": "Daumer",
+    "admin": true
+}

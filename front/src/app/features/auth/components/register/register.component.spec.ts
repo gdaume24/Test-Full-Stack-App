@@ -28,10 +28,7 @@ describe('RegisterComponent', () => {
         MatCardModule,
         MatFormFieldModule,
         MatIconModule,
-        MatInputModule,
-        RouterTestingModule.withRoutes([
-          { path: "login", component: LoginComponent },
-        ])
+        MatInputModule
       ]
     })
       .compileComponents();

@@ -42,9 +42,6 @@ describe('FormComponent', () => {
         MatSnackBarModule,
         MatSelectModule,
         NoopAnimationsModule,
-        RouterTestingModule.withRoutes([
-          { path: "sessions", loadChildren: () => import('../../../sessions/sessions.module').then(m => m.SessionsModule) }
-        ])
       ],
       providers: [
         { provide: SessionService, useValue: mockSessionService },

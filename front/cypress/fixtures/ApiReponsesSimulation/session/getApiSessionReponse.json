@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "name": "Session 1",
-    "description": "Description for Session 1",
+    "name": "Session 1 de l'année 2025",
+    "description": "blablabli blablabla",
     "date": "2025-01-17T00:00:00.000Z",
     "teacher_id": 1,
     "users": [1, 2, 3],

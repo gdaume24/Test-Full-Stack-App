@@ -1,9 +1,11 @@
 {
   "extends": "../tsconfig.json",
   "compilerOptions": {
-    "isolatedModules": false
+    "isolatedModules": false,
+    "noPropertyAccessFromIndexSignature": false
   },
   "include": [
     "../node_modules/cypress"
-  ]
+  ],
+  "types": [ "node", "cypress" ]
 }

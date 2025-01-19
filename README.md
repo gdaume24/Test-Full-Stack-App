@@ -27,7 +27,10 @@ To start e2e test, do the following commands :
 if you're not already in front folder :
 cd front
 run front server : ng serve
-
-
 npx cypress verify
 npx cypress open
+
+Pour générer le rapport de code coverage :
+
+npx update-browserslist-db@latest
+npx nyc instrument --compact=false src instrumented 

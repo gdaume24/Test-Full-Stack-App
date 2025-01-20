@@ -22,9 +22,8 @@
       "es2020",
       "dom"
     ],
-    //"types": ["@types/jest", "@types/node", "cypress"]
+    "types": ["@types/jest", "@types/node", "cypress"]
   },
-  "types": [ "node" ],
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,

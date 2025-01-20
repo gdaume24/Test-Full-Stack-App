@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.550" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-01-20T19:49:02" tests="1" file="cypress\e2e\sessions\InformationSession.cy.ts" time="1.547" failures="0">
+    <testcase name="Les informations de la session sont correctement affichées, verification du boutons Delete en tant qu&apos;admin" time="1.217" classname="Les informations de la session sont correctement affichées, verification du boutons Delete en tant qu&apos;admin">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.388" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-01-20T19:49:06" tests="1" file="cypress\e2e\sessions\Sessions.cy.ts" time="1.383" failures="0">
+    <testcase name="Affichage de la liste des sessions, verification des boutons Detail et Create en tant qu&apos;admin" time="1.072" classname="Affichage de la liste des sessions, verification des boutons Detail et Create en tant qu&apos;admin">
+    </testcase>
+  </testsuite>
+</testsuites>

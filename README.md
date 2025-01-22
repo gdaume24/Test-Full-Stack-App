@@ -1,9 +1,21 @@
-Project to test a full stack app
+# Testing a full stack application
+* Unit and integration test of Angular front-end with Jest
+* End to end tests on Angular mocking API response with Cypress
+* Unit and integration tests of Spring back-end using Junit and Mockito
 
-To run project :
+## Project launch guide :
 
-Install the repository in your machine :
+1. Clone the repository in somewhere in your machine and go inside it :  
+```powershell
 git clone https://github.com/gdaume24/Test-Full-Stack-App.git
+cd Test-Full-Stack-App
+```
+2. Ensure you have your docker engine running
+3. Create the MySQL databse
+```powershell
+docker-compose -f db/compose.yml up
+```
+
 
 To start unit and integration tests on front-end part :
 Go into front folder :

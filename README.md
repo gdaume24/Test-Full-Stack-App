@@ -11,10 +11,20 @@ git clone https://github.com/gdaume24/Test-Full-Stack-App.git
 cd Test-Full-Stack-App
 ```
 2. Ensure you have your docker engine running
-3. Create the MySQL databse
+3. Create a .env file in db folder, as you can't create it in the root folder of the project, because it will not be detected by docker.
+Set variables in the .env file
+`MYSQL_USERNAME=your_user_variable
+MYSQL_ROOT_PASSWORD=your_root_password_variable
+MYSQL_PASSWORD=your_password`
+4. Create the MySQL databse
 ```powershell
-docker-compose -f db/compose.yml up
+cd db
+docker-compose up
 ```
+Now that you're database is running, time to start the back-end :
+5. Create .env file in back folder, make sure you write the same 3 variables as in the db/.env file you just created. 
+Pass a 4th variable to tell the back your database url  
+`MYSQL_URL=your_mysql_url`
 
 
 To start unit and integration tests on front-end part :

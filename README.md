@@ -10,7 +10,12 @@
 git clone https://github.com/gdaume24/Test-Full-Stack-App.git
 cd Test-Full-Stack-App
 ```
-2. 
+2. Ensure you have your docker engine running
+3. Create the MySQL databse
+```powershell
+docker-compose -f db/compose.yml up
+```
+
 
 To start unit and integration tests on front-end part :
 Go into front folder :

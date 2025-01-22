@@ -13,9 +13,11 @@ cd Test-Full-Stack-App
 2. Ensure you have your docker engine running
 3. Create a .env file in db folder, as you can't create it in the root folder of the project, because it will not be detected by docker.
 Set variables in the .env file
-`MYSQL_USERNAME=your_user_variable
+```
+MYSQL_USERNAME=your_user_variable
 MYSQL_ROOT_PASSWORD=your_root_password_variable
-MYSQL_PASSWORD=your_password`
+MYSQL_PASSWORD=your_password
+```
 4. Create the MySQL databse
 ```powershell
 cd db

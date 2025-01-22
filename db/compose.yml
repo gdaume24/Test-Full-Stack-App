@@ -13,3 +13,5 @@ services:
       MYSQL_PASSWORD: ${MYSQL_PASSWORD}
       MYSQL_DATABASE: test
     restart: unless-stopped
+    env_file: 
+      - path: .env

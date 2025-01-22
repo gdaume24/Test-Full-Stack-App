@@ -1,3 +1,4 @@
+.env
 back/.env
 db/.env
 back/mvn script.bat

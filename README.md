@@ -22,7 +22,7 @@ MYSQL_PASSWORD=your_password
 4. Create the MySQL databse
 ```powershell
 cd db
-docker-compose up
+docker-compose up -d
 ```
 Now that you're database is running, time to start the back-end :
 5. Create .env file in back folder, make sure you write the same 3 variables as in the db/.env file you just created. 

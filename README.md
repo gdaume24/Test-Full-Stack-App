@@ -37,7 +37,15 @@ SECURITY_JWT_EXPIRATION_TIME=your_jwt_expiration_time
 ```
 6. Make sure you have Extension pack for Java installed in your VSCode, and a jdk-11 folder set in your JAVA_HOME system environment variable
 7. In your VSCode file explorer, find the file back/src/main/java/com/openclassrooms/startedjwt/SpringBootSecurityJwtApplication.java, right click on it and click Run Java, Spring app should run correctly
-8. 
+To run the front-end :
+8. Make sure you :
+  1. Have the last Long Term Support version of node js installed (LTS)
+  2. Have installed the 7.24.2 version of npm for the dependencies :
+  ```npm install -g npm@7.24.2```
+  3. Have angular CLI 14 installed :
+  ```npm install -g @angular/cli@14```
+9. Run front server
+```ng serve```
 
 
 To start unit and integration tests on front-end part :

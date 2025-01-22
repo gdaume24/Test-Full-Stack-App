@@ -13,10 +13,10 @@ cd Test-Full-Stack-App
 Now we want to run first the database :
 2. Ensure you have your docker engine running
 3. Create a .env file in db folder, as you can't create it in the root folder of the project, because it will not be detected by docker.
-Set variables in the .env file
+Set your personal variables in the .env file
 ```
-MYSQL_USERNAME=your_user_variable
-MYSQL_ROOT_PASSWORD=your_root_password_variable
+MYSQL_USERNAME=your_user
+MYSQL_ROOT_PASSWORD=your_root_password
 MYSQL_PASSWORD=your_password
 ```
 4. Create the MySQL databse
@@ -25,11 +25,20 @@ cd db
 docker-compose up -d
 ```
 Now that you're database is running, time to start the back-end :
-5. Create .env file in back folder, make sure you write the same 3 variables as in the db/.env file you just created. 
-Pass a 4th variable to tell the back your database url  
+5. Create .env file in back folder, here is the template of the file for you to set your personal variables in
 ```
 MYSQL_URL=your_mysql_url
+MYSQL_USERNAME=your_user
+MYSQL_ROOT_PASSWORD=your_root_password
+MYSQL_PASSWORD=your_password
+
+SECURITY_JWT_SECRET_KEY=your_jwt_key
+SECURITY_JWT_EXPIRATION_TIME=your_jwt_expiration_time
 ```
+6. Make sure you have Extension pack for Java installed in your VSCode, and a jdk-11 folder set in your JAVA_HOME system environment variable
+7. In your VSCode file explorer, find the file back/src/main/java/com/openclassrooms/startedjwt/SpringBootSecurityJwtApplication.java, right click on it and click Run Java, Spring app should run correctly
+8. 
+
 
 To start unit and integration tests on front-end part :
 Go into front folder :

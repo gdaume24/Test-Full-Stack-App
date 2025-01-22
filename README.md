@@ -3,8 +3,8 @@
 * End to end tests on Angular mocking API response with Cypress
 * Unit and integration tests of Spring back-end using Junit and Mockito
 
-To run project :
-
+Project launch guide :
+-----
 Install the repository in your machine :
 git clone https://github.com/gdaume24/Test-Full-Stack-App.git
 

@@ -24,7 +24,7 @@ MYSQL_PASSWORD=your_password
 cd db
 docker-compose up -d
 ```
-Now that you're database is running, time to start the back-end :
+Now that you're database is running, we will prepare the back-end dependencies :
 5. Create .env file in back folder, here is the template of the file for you to set your personal variables in
 ```
 MYSQL_URL=your_mysql_url
@@ -36,34 +36,38 @@ SECURITY_JWT_SECRET_KEY=your_jwt_key
 SECURITY_JWT_EXPIRATION_TIME=your_jwt_expiration_time
 ```
 6. Make sure you have Extension pack for Java installed in your VSCode, and a jdk-11 folder set in your JAVA_HOME system environment variable
-7. In your VSCode file explorer, find the file back/src/main/java/com/openclassrooms/startedjwt/SpringBootSecurityJwtApplication.java, right click on it and click Run Java, Spring app should run correctly
-To run the front-end :
-8. Make sure you :
-  1. Have the last Long Term Support version of node js installed (LTS)
-  2. Have installed the 7.24.2 version of npm for the dependencies :
-  ```npm install -g npm@7.24.2```
-  3. Have angular CLI 14 installed :
+Before starting the back, we want to prepare the front-end dependencies
+7. Install nodejs 16 (uninstall your current version if needed)
+8. Install Angular CLI 14 :
   ```npm install -g @angular/cli@14```
-9. Run front server
+9. Install dependencies :
+```
+cd front
+npm i
+```
+10. Run back server
+In your VSCode file explorer, find the file back/src/main/java/com/openclassrooms/startedjwt/SpringBootSecurityJwtApplication.java, right click on it and click 'Run Java'
+12. Run front server
 ```ng serve```
 
+Now the whole stack is running, you can test the app manually  
+-> <http://localhost:4200/>
 
-To start unit and integration tests on front-end part :
-Go into front folder :
-cd front
+## Project tests coverages guide
 
-Install Angular project dependencies :
-npm i
-
-Start test with coverage report :
-npm test
-
-Details about those tests :
+To start unit and integration tests coverage on front-end part :
+```npm test```
 The tests that have been edited manually are features/auth/component/login/login.component.spec.ts
                                              features/auth/component/register/register.component.spec.ts
                                              features/sessions/components/form/form.component.spec.ts
 
 
+
+
+
+
+
+TODO
 e2e testing with Cypress :
 
 To start e2e test, do the following commands :

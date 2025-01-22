@@ -5,7 +5,7 @@
 
 ## Project launch guide :
 
-1. Clone the repository in somewhere in your machine and go inside it :  
+1. Clone the repository somewhere in your machine and go inside it :  
 ```powershell
 git clone https://github.com/gdaume24/Test-Full-Stack-App.git
 cd Test-Full-Stack-App

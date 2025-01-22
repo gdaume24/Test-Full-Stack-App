@@ -1,4 +1,7 @@
-Project to test a full stack app
+# Testing a full stack application
+* Unit and integration test of Angular front-end with Jest
+* End to end tests on Angular mocking API response with Cypress
+* Unit and integration tests of Spring back-end using Junit and Mockito
 
 To run project :
 

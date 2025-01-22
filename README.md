@@ -5,12 +5,12 @@
 
 ## Project launch guide :
 
-1. Install the repository in your machine :  
-`git clone https://github.com/gdaume24/Test-Full-Stack-App.git`
+1. Clone the repository in somewhere in your machine and go inside it :  
 ```powershell
 git clone https://github.com/gdaume24/Test-Full-Stack-App.git
+cd Test-Full-Stack-App
 ```
-
+2. 
 
 To start unit and integration tests on front-end part :
 Go into front folder :

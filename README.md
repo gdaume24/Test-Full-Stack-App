@@ -61,8 +61,8 @@ cd front
 npm run test
 ```
 <ins>Note :</ins> The tests that have been edited manually are features/auth/component/login/login.component.spec.ts  
-                                                               features/auth/component/register/register.component.spec.ts  
-                                                               features/sessions/components/form/form.component.spec.ts
+<pre>                                                          features/auth/component/register/register.component.spec.ts<\pre>  
+<pre>                                                          features/sessions/components/form/form.component.spec.ts<\pre>  
 
 
 

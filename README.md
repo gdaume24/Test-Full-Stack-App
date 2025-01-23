@@ -55,33 +55,22 @@ Now the whole stack is running, you can test the app manually
 
 ## Guide to obtaining test coverages
 
-To run unit and integration tests coverage on front-end part :
+To run unit and integration tests coverage on front-end :
 ```
 cd front
 npm run test
 ```
-<ins>Note :</ins> The tests that have been edited manually are :
+The report will be shown in the terminal, the html file with the details is located at `coverage/jest/index.html`
+<ins>Note</ins> : The tests that have been edited manually are :
 - features/auth/component/login/login.component.spec.ts
 - features/auth/component/register/register.component.spec.ts
 - features/sessions/components/form/form.component.spec.ts 
   
+To run 'end to end' tests coverage on front-end :
+// npx nyc instrument --compact=false src instrumented 
+```npm run e2e:ci```
+
+The report with details is in `coverage/lcov-report/index.html`
 
 
 
-
-
-
-TODO
-e2e testing with Cypress :
-
-To start e2e test, do the following commands :
-if you're not already in front folder :
-cd front
-run front server : ng serve
-npx cypress verify
-npx cypress open
-
-Pour générer le rapport de code coverage :
-
-npx update-browserslist-db@latest
-npx nyc instrument --compact=false src instrumented 

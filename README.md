@@ -53,7 +53,7 @@ In your VSCode file explorer, find the file back/src/main/java/com/openclassroom
 Now the whole stack is running, you can test the app manually  
 -> <http://localhost:4200/>
 
-## Guide to obtaining test coverages
+## Guide to obtain test coverages
 
 To run unit and integration tests coverage on front-end :
 ```

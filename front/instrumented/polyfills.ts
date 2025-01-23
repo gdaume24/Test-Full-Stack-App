@@ -1,10 +1,10 @@
-function cov_1z35042fvq() {
-  var path = "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\polyfills.ts";
-  var hash = "137427f4480b57eb20fa1440fcb3460ce2a0821e";
+function cov_j7an0v9ei() {
+  var path = "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\polyfills.ts";
+  var hash = "bf06a66ea5cdab14b91affe2e855e49e580568fb";
   var global = new Function("return this")();
   var gcv = "__coverage__";
   var coverageData = {
-    path: "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\polyfills.ts",
+    path: "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\polyfills.ts",
     statementMap: {},
     fnMap: {},
     branchMap: {},
@@ -12,7 +12,7 @@ function cov_1z35042fvq() {
     f: {},
     b: {},
     _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    hash: "137427f4480b57eb20fa1440fcb3460ce2a0821e"
+    hash: "bf06a66ea5cdab14b91affe2e855e49e580568fb"
   };
   var coverage = global[gcv] || (global[gcv] = {});
 
@@ -23,14 +23,14 @@ function cov_1z35042fvq() {
   var actualCoverage = coverage[path];
   {
     // @ts-ignore
-    cov_1z35042fvq = function () {
+    cov_j7an0v9ei = function () {
       return actualCoverage;
     };
   }
   return actualCoverage;
 }
 
-cov_1z35042fvq();
+cov_j7an0v9ei();
 
 /**
  * This file includes polyfills needed by Angular and is loaded before the app.

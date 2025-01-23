@@ -60,8 +60,8 @@ To run unit and integration tests coverage on front-end part :
 cd front
 npm run test
 ```
-<ins>Note :</ins> The tests that have been edited manually are features/auth/component/login/login.component.spec.ts
-                                                               features/auth/component/register/register.component.spec.ts
+<ins>Note :</ins> The tests that have been edited manually are features/auth/component/login/login.component.spec.ts  
+                                                               features/auth/component/register/register.component.spec.ts  
                                                                features/sessions/components/form/form.component.spec.ts
 
 

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="1.894" tests="1" failures="0">
-  <testsuite name="Root Suite" timestamp="2025-01-20T19:48:58" tests="1" file="cypress\e2e\auth\Register.cy.ts" time="1.891" failures="0">
-    <testcase name="L&apos;inscription d&apos;un utilisateur renvoie bien à la page de connexion" time="1.576" classname="L&apos;inscription d&apos;un utilisateur renvoie bien à la page de connexion">
-    </testcase>
-  </testsuite>
-</testsuites>

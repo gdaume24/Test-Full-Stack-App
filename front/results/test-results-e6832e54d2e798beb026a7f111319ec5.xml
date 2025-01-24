@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="5.988" tests="1" failures="1">
-  <testsuite name="Root Suite" timestamp="2025-01-24T20:12:50" tests="1" file="cypress\e2e\sessions\CreateSession.cy.ts" time="5.985" failures="1">
-    <testcase name="Crée une session en tant qu&apos;admin" time="0.000" classname="Crée une session en tant qu&apos;admin">
-      <failure message="Timed out retrying after 4000ms: Expected to find element: `mat-select[ng-reflect-name=&quot;teacher_id&quot;]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `mat-select[ng-reflect-name="teacher_id"]`, but never found it.
-    at Context.eval (webpack:///./cypress/e2e/sessions/CreateSession.cy.ts:42:7)]]></failure>
-    </testcase>
-  </testsuite>
-</testsuites>

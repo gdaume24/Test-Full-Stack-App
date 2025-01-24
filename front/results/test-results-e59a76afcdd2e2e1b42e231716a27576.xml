@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="2.244" tests="1" failures="0">
-  <testsuite name="Root Suite" timestamp="2025-01-24T20:25:36" tests="1" file="cypress\e2e\sessions\ModificationSession.cy.ts" time="2.240" failures="0">
-    <testcase name="Modifie une session, vérifie que le bouton est désactivé en l&apos;absence d&apos;un champ obligatoire" time="1.893" classname="Modifie une session, vérifie que le bouton est désactivé en l&apos;absence d&apos;un champ obligatoire">
-    </testcase>
-  </testsuite>
-</testsuites>

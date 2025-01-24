@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="2.839" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-01-24T20:12:31" tests="0" file="cypress\e2e\Account.cy.ts" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Suppression d&apos;une session" timestamp="2025-01-24T20:12:32" tests="1" time="2.812" failures="0">
+    <testcase name="Suppression d&apos;une session Affichage des informations de l’utilisateur" time="2.087" classname="Affichage des informations de l’utilisateur">
+    </testcase>
+  </testsuite>
+</testsuites>

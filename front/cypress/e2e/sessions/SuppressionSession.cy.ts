@@ -1,4 +1,3 @@
-
 describe("Suppression d'une session", () => {
     before(function () {
     
@@ -26,13 +25,10 @@ describe("Suppression d'une session", () => {
             cy.intercept('DELETE', '/api/session/1', {
                 body : null
                 })
-            cy.intercept('DELETE', '/api/session/1', (req) => {
-                req.on('response', (res) => {
-                this.sessionData = null;
+            cy.intercept('DELETE', '/api/session/1', {
+                body : null
                 })
-            })
         });
-
         cy.fixture('ApiReponsesSimulation/teacher/getApiTeacher1Reponse.json').then((data) => {
             cy.intercept('GET', '/api/teacher/1', {
                 body: data,
@@ -46,8 +42,8 @@ describe("Suppression d'une session", () => {
     cy.get('input[formControlName=password]').type(this.user.password);
     cy.get('button[type=submit]').click();
     cy.contains('Detail').click();
-    cy.contains('Delete').click().debug();
-    // cy.wait('@sessionData'); 
+    cy.contains('Delete').click();
+    cy.url().should("contain", "sessions");
     });
 });
 

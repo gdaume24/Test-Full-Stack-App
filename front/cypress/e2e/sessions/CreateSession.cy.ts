@@ -39,7 +39,7 @@ before(() => {
 
     // Remplit tout sauf name
     cy.get('input[type="date"]').type('2028-12-12');
-    cy.get('mat-select[ng-reflect-name="teacher_id"]').click().get('mat-option').contains('John Doe').click();
+    cy.get("mat-select[formcontrolname='teacher_id']").click().get('mat-option').contains('John Doe').click();
     cy.get('textarea[formcontrolname="description"]').type('Session xtreme');
     // Le bouton n'est pas cliquable
     cy.contains("Save").should('be.disabled')
@@ -47,4 +47,9 @@ before(() => {
     cy.contains("Save").click()
     cy.contains("Session Soleil")
   });
+
+  // <testcase name="Crée une session en tant qu&apos;admin" time="0.000" classname="Crée une session en tant qu&apos;admin">
+  // <failure message="Timed out retrying after 4000ms: Expected to find element: `mat-select[ng-reflect-name=&quot;teacher_id&quot;]`,
+  //  but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: 
+  //  `mat-select[ng-reflect-name="teacher_id"]`, but never found it.
   

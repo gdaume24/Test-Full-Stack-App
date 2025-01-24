@@ -1,6 +1,7 @@
 import { defineConfig } from 'cypress'
 
 export default defineConfig({
+  experimentalModifyObstructiveThirdPartyCode: true,
   reporter: 'junit',
   reporterOptions: {
     mochaFile: 'results/test-results-[hash].xml',

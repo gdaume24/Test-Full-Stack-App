@@ -55,7 +55,7 @@ Now the whole stack is running, you can test the app manually
 
 ## Guide to obtain test coverages
 
-To run unit and integration tests coverage on front-end :
+### To run unit and integration tests coverage on front-end :
 ```
 cd front
 npm run test
@@ -66,11 +66,9 @@ The report will be shown in the terminal, the html file with the details is loca
 - features/auth/component/register/register.component.spec.ts
 - features/sessions/components/form/form.component.spec.ts 
   
-To run 'end to end' tests coverage on front-end :
-// npx nyc instrument --compact=false src instrumented 
-```npm run e2e:ci```
-
-The report with details is in `coverage/lcov-report/index.html`
+### To run 'end to end' tests coverage on front-end :  
+```npm run e2e:ci```  
+The report will be shown in the terminal, the html file with the details is located at `coverage/lcov-report/index.html`
 
 
 

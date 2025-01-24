@@ -1,5 +1,3 @@
-import { match } from 'assert';
-
 before(() => {
   cy.fixture('authFormData').then(function (data) {
     this.user = data;
@@ -32,7 +30,7 @@ before(() => {
   );
 });
 
-it("Les informations de la session sont correctement affichées, verification du boutons Delete en tant qu'admin", function () {
+it("Appuie sur 'Detail', les informations de la session sont correctement affichées. Vérification du boutons Delete en tant qu'admin", function () {
   cy.visit('/login');
   cy.get('input[formControlName=email]').type(this.user.email);
   cy.get('input[formControlName=password]').type(this.user.password);

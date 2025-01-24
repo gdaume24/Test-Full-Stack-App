@@ -1,0 +1,10 @@
+{
+    "id": 1,
+    "name": "Session Soleil",
+    "description": "Session xtreme",
+    "date": "2028-12-12T00:00:00.000Z",
+    "teacher_id": 1,
+    "users": [],
+    "createdAt": "2023-10-01T00:00:00.000Z",
+    "updatedAt": "2023-10-01T00:00:00.000Z"
+}

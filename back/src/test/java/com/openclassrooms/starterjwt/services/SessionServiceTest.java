@@ -39,26 +39,50 @@ public class SessionServiceTest {
     ArgumentCaptor<Session> sessionCaptor;
 
     private SessionService sessionService;
+    private Session session1;
+    private Session session2;
+    private User user1;
     
     @BeforeEach
     public void setUp() throws Exception {
         MockitoAnnotations.initMocks(this);
+
         sessionService = new SessionService(sessionRepository, userRepository);
-    }
 
-    @Test   
-    public void testCreate() throws Exception {
-
-        Session session1 = new Session();
+        session1 = new Session();
         session1.setId(1L);
         session1.setName("Super session");
         session1.setDate(new SimpleDateFormat("yyyy-MM-dd").parse("2025-12-25"));
         session1.setDescription("Session mortelle");
         session1.setTeacher(new Teacher());
-        session1.setUsers(List.of(new User()));
+        session1.setUsers(new ArrayList<>());
         session1.setCreatedAt(LocalDateTime.now());
         session1.setUpdatedAt(LocalDateTime.now());
-        
+
+        session2 = new Session();
+        session1.setId(2L);
+        session1.setName("Supra session");
+        session1.setDate(new SimpleDateFormat("yyyy-MM-dd").parse("2025-09-25"));
+        session1.setDescription("Session trop bien");
+        session1.setTeacher(new Teacher());
+        session1.setUsers(new ArrayList<>());
+        session1.setCreatedAt(LocalDateTime.now());
+        session1.setUpdatedAt(LocalDateTime.now());
+
+        user1 = new User();
+        user1.setId(1L);
+        user1.setEmail("test@example.com");
+        user1.setFirstName("John");
+        user1.setLastName("Doe");
+        user1.setPassword("password");
+        user1.setAdmin(false);
+        user1.setCreatedAt(LocalDateTime.now());
+        user1.setUpdatedAt(LocalDateTime.now());
+    }
+
+    @Test   
+    public void testCreate() throws Exception {
+
         when(sessionRepository.save(session1)).thenReturn(session1);
 
         Session createdSession = sessionService.create(session1);
@@ -80,25 +104,6 @@ public class SessionServiceTest {
 
     @Test
     public void testFindAll() throws Exception {
-        Session session1 = new Session();
-        session1.setId(1L);
-        session1.setName("Super session");
-        session1.setDate(new SimpleDateFormat("yyyy-MM-dd").parse("2025-12-25"));
-        session1.setDescription("Session mortelle");
-        session1.setTeacher(new Teacher());
-        session1.setUsers(List.of(new User()));
-        session1.setCreatedAt(LocalDateTime.now());
-        session1.setUpdatedAt(LocalDateTime.now());
-
-        Session session2 = new Session();
-        session1.setId(1L);
-        session1.setName("Supra session");
-        session1.setDate(new SimpleDateFormat("yyyy-MM-dd").parse("2025-09-25"));
-        session1.setDescription("Session trop bien");
-        session1.setTeacher(new Teacher());
-        session1.setUsers(List.of(new User()));
-        session1.setCreatedAt(LocalDateTime.now());
-        session1.setUpdatedAt(LocalDateTime.now());
 
         when(sessionRepository.findAll()).thenReturn(List.of(session1, session2));
 
@@ -110,15 +115,6 @@ public class SessionServiceTest {
 
     @Test
     public void testGetById() throws Exception {
-        Session session1 = new Session();
-        session1.setId(1L);
-        session1.setName("Super session");
-        session1.setDate(new SimpleDateFormat("yyyy-MM-dd").parse("2025-12-25"));
-        session1.setDescription("Session mortelle");
-        session1.setTeacher(new Teacher());
-        session1.setUsers(List.of(new User()));
-        session1.setCreatedAt(LocalDateTime.now());
-        session1.setUpdatedAt(LocalDateTime.now());
 
         when(sessionRepository.findById(1L)).thenReturn(Optional.of(session1));
 
@@ -129,15 +125,6 @@ public class SessionServiceTest {
 
     @Test
     public void testUpdate() throws Exception {
-        Session session1 = new Session();
-        session1.setId(1L);
-        session1.setName("Super session");
-        session1.setDate(new SimpleDateFormat("yyyy-MM-dd").parse("2025-12-25"));
-        session1.setDescription("Session mortelle");
-        session1.setTeacher(new Teacher());
-        session1.setUsers(List.of(new User()));
-        session1.setCreatedAt(LocalDateTime.now());
-        session1.setUpdatedAt(LocalDateTime.now());
 
         when(sessionRepository.save(session1)).thenReturn(session1);
 
@@ -148,25 +135,6 @@ public class SessionServiceTest {
 
     @Test
     public void testParticipate() throws Exception {
-        Session session1 = new Session();
-        session1.setId(1L);
-        session1.setName("Super session");
-        session1.setDate(new SimpleDateFormat("yyyy-MM-dd").parse("2025-12-25"));
-        session1.setDescription("Session mortelle");
-        session1.setTeacher(new Teacher());
-        session1.setUsers(new ArrayList<>());
-        session1.setCreatedAt(LocalDateTime.now());
-        session1.setUpdatedAt(LocalDateTime.now());
-
-        User user1 = new User();
-        user1.setId(1L);
-        user1.setEmail("test@example.com");
-        user1.setFirstName("John");
-        user1.setLastName("Doe");
-        user1.setPassword("password");
-        user1.setAdmin(false);
-        user1.setCreatedAt(LocalDateTime.now());
-        user1.setUpdatedAt(LocalDateTime.now());
 
         when(sessionRepository.findById(1L)).thenReturn(Optional.of(session1));
         when(userRepository.findById(1L)).thenReturn(Optional.of(user1));

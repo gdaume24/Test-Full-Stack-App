@@ -1,16 +1,13 @@
 package com.openclassrooms.starterjwt.services;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.doNothing;
-import static org.mockito.Mockito.doReturn;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-import java.lang.StackWalker.Option;
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -18,9 +15,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.ArgumentCaptor;
-import org.mockito.InjectMocks;
+import org.mockito.Captor;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 import org.mockito.junit.jupiter.MockitoExtension;
 
@@ -38,6 +34,9 @@ public class SessionServiceTest {
 
     @Mock
     private UserRepository userRepository;
+
+    @Captor
+    ArgumentCaptor<Session> sessionCaptor;
 
     private SessionService sessionService;
     
@@ -155,7 +154,7 @@ public class SessionServiceTest {
         session1.setDate(new SimpleDateFormat("yyyy-MM-dd").parse("2025-12-25"));
         session1.setDescription("Session mortelle");
         session1.setTeacher(new Teacher());
-        session1.setUsers(List.of());
+        session1.setUsers(new ArrayList<>());
         session1.setCreatedAt(LocalDateTime.now());
         session1.setUpdatedAt(LocalDateTime.now());
 
@@ -174,18 +173,9 @@ public class SessionServiceTest {
 
         sessionService.participate(1L, 1L);
 
-        Session session1Modified = new Session();
-        session1.setId(1L);
-        session1.setName("Super session");
-        session1.setDate(new SimpleDateFormat("yyyy-MM-dd").parse("2025-12-25"));
-        session1.setDescription("Session mortelle");
-        session1.setTeacher(new Teacher());
-        session1.setUsers(List.of(user1));
-        session1.setCreatedAt(LocalDateTime.now());
-        session1.setUpdatedAt(LocalDateTime.now());
-        when(sessionRepository.save(session1Modified)).thenReturn(session1Modified);
-
-        verify(sessionRepository).save(session1Modified);
+        verify(sessionRepository).save(sessionCaptor.capture());
+        Session sessionCaptorValue = sessionCaptor.getValue();
+        assertEquals(user1, sessionCaptorValue.getUsers().get(0));
     }
 
 }

@@ -8,6 +8,7 @@ import static org.mockito.Mockito.when;
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
@@ -42,6 +43,8 @@ public class SessionServiceTest {
     private Session session1;
     private Session session2;
     private User user1;
+    private User user2;
+    private User user3;
     
     @BeforeEach
     public void setUp() throws Exception {
@@ -49,35 +52,55 @@ public class SessionServiceTest {
 
         sessionService = new SessionService(sessionRepository, userRepository);
 
-        session1 = new Session();
-        session1.setId(1L);
-        session1.setName("Super session");
-        session1.setDate(new SimpleDateFormat("yyyy-MM-dd").parse("2025-12-25"));
-        session1.setDescription("Session mortelle");
-        session1.setTeacher(new Teacher());
-        session1.setUsers(new ArrayList<>());
-        session1.setCreatedAt(LocalDateTime.now());
-        session1.setUpdatedAt(LocalDateTime.now());
+        session1 = new Session()
+        .setId(1L)
+        .setName("Super session")
+        .setDate(new SimpleDateFormat("yyyy-MM-dd").parse("2025-12-25"))
+        .setDescription("Session mortelle")
+        .setTeacher(new Teacher())
+        .setUsers(new ArrayList<User>())
+        .setCreatedAt(LocalDateTime.now())
+        .setUpdatedAt(LocalDateTime.now());
 
-        session2 = new Session();
-        session1.setId(2L);
-        session1.setName("Supra session");
-        session1.setDate(new SimpleDateFormat("yyyy-MM-dd").parse("2025-09-25"));
-        session1.setDescription("Session trop bien");
-        session1.setTeacher(new Teacher());
-        session1.setUsers(new ArrayList<>());
-        session1.setCreatedAt(LocalDateTime.now());
-        session1.setUpdatedAt(LocalDateTime.now());
+        session2 = new Session()
+        .setId(2L)
+        .setName("Supra session")
+        .setDate(new SimpleDateFormat("yyyy-MM-dd").parse("2025-09-25"))
+        .setDescription("Session trop bien")
+        .setTeacher(new Teacher())
+        .setUsers(new ArrayList<User>())
+        .setCreatedAt(LocalDateTime.now())
+        .setUpdatedAt(LocalDateTime.now());
 
-        user1 = new User();
-        user1.setId(1L);
-        user1.setEmail("test@example.com");
-        user1.setFirstName("John");
-        user1.setLastName("Doe");
-        user1.setPassword("password");
-        user1.setAdmin(false);
-        user1.setCreatedAt(LocalDateTime.now());
-        user1.setUpdatedAt(LocalDateTime.now());
+        user1 = new User()
+        .setId(1L)
+        .setEmail("test@example.com")
+        .setFirstName("John")
+        .setLastName("Doe")
+        .setPassword("password")
+        .setAdmin(false)
+        .setCreatedAt(LocalDateTime.now())
+        .setUpdatedAt(LocalDateTime.now());
+
+        user2 = new User()
+        .setId(2L)
+        .setEmail("user2@example.com")
+        .setFirstName("Jane")
+        .setLastName("Doe")
+        .setPassword("password")
+        .setAdmin(false)
+        .setCreatedAt(LocalDateTime.now())
+        .setUpdatedAt(LocalDateTime.now());
+
+        user3 = new User()
+        .setId(3L)
+        .setEmail("user3@example.com")
+        .setFirstName("Jim")
+        .setLastName("Beam")
+        .setPassword("password")
+        .setAdmin(false)
+        .setCreatedAt(LocalDateTime.now())
+        .setUpdatedAt(LocalDateTime.now());
     }
 
     @Test   
@@ -126,11 +149,11 @@ public class SessionServiceTest {
     @Test
     public void testUpdate() throws Exception {
 
-        when(sessionRepository.save(session1)).thenReturn(session1);
+        sessionService.update(4L, session1);
 
-        Session updatedSession = sessionService.update(1L, session1);
-
-        assertEquals(session1, updatedSession);
+        verify(sessionRepository).save(sessionCaptor.capture());
+        Session sessionCaptorValue = sessionCaptor.getValue();
+        assertEquals(4L, sessionCaptorValue.getId());
     }
 
     @Test
@@ -146,4 +169,16 @@ public class SessionServiceTest {
         assertEquals(user1, sessionCaptorValue.getUsers().get(0));
     }
 
+    @Test
+    public void testNoLongerParticipate() throws Exception {
+
+        Session sessionWithSomeParticipants = session1.setUsers(new ArrayList<>(Arrays.asList(user1, user2, user3)));
+        when(sessionRepository.findById(1L)).thenReturn(Optional.of(sessionWithSomeParticipants));
+
+        sessionService.noLongerParticipate(1L, 1L);
+
+        verify(sessionRepository).save(sessionCaptor.capture());
+        Session sessionCaptorValue = sessionCaptor.getValue();
+        assertEquals(new ArrayList<>(Arrays.asList(user2, user3)), sessionCaptorValue.getUsers());
+    }
 }

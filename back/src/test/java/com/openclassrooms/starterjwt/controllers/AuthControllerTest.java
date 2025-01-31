@@ -4,7 +4,6 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 import org.springframework.http.MediaType;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -16,6 +15,7 @@ import org.springframework.test.web.servlet.request.MockHttpServletRequestBuilde
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.hamcrest.Matchers.is;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+import static org.hamcrest.Matchers.containsString;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import java.util.Optional;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
@@ -24,6 +24,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 import com.openclassrooms.starterjwt.models.User;
 import com.openclassrooms.starterjwt.payload.request.LoginRequest;
+import com.openclassrooms.starterjwt.payload.request.SignupRequest;
 import com.openclassrooms.starterjwt.repository.UserRepository;
 import com.openclassrooms.starterjwt.security.jwt.JwtUtils;
 import com.openclassrooms.starterjwt.security.services.UserDetailsImpl;
@@ -98,21 +99,46 @@ public class AuthControllerTest {
             .andExpect(jsonPath("$.username", is("john.doe@example.com")))
             .andExpect(jsonPath("$.admin", is(true)));
 
-    //             // Simuler la requête HTTP POST
-    // mockMvc.perform(post("/api/auth/login")
-    // .contentType(MediaType.APPLICATION_JSON)
-    // .content(objectMapper.writeValueAsString(loginRequest)))
-    // .andExpect(status().isOk())
-    // .andExpect(content().contentType(MediaType.APPLICATION_JSON))
-    // .andExpect(content().json(
-    //     "{" +
-    //         "\"token\":\"mocked-jwt-token\"," +
-    //         "\"type\":\"Bearer\"," +
-    //         "\"id\":1," +
-    //         "\"username\":\"admin@test.com\"," +
-    //         "\"firstName\":\"John\"," +
-    //         "\"lastName\":\"Doe\"," +
-    //         "\"admin\":true" +
-    //         "}"));
+            when(userRepository.findByEmail(userDetails.getUsername())).thenReturn(Optional.empty());
+
+        mockMvc.perform(mockRequest)
+            .andExpect(status().isOk())
+            .andExpect(jsonPath("$.admin", is(false)));
+
+    }
+
+    @Test
+    public void testRegisterUserThrowsErrorIfEmailAlreadyTaken() throws Exception {
+        SignupRequest signupRequest = new SignupRequest();
+        signupRequest.setEmail("john.doe@example.com");
+        signupRequest.setFirstName("John");
+        signupRequest.setLastName("Doe");
+        signupRequest.setPassword("password");
+        String content = objectWriter.writeValueAsString(signupRequest);
+        when(userRepository.existsByEmail(signupRequest.getEmail())).thenReturn(true);
+
+        mockMvc.perform(post("/api/auth/register")
+        .contentType(MediaType.APPLICATION_JSON)
+        .content(content))
+        .andExpect(status().isBadRequest())
+        .andExpect(content().string(containsString("Error: Email is already taken!")));
+    }
+
+    @Test
+    public void testRegisterUser() throws Exception {
+        SignupRequest signupRequest = new SignupRequest();
+        signupRequest.setEmail("john.doe@example.com");
+        signupRequest.setFirstName("John");
+        signupRequest.setLastName("Doe");
+        signupRequest.setPassword("password");
+        String content = objectWriter.writeValueAsString(signupRequest);
+
+        when(passwordEncoder.encode(signupRequest.getPassword())).thenReturn("ofdghvsdovbfljkvbljkncjxklvnb");
+
+        mockMvc.perform(post("/api/auth/register")
+        .contentType(MediaType.APPLICATION_JSON)
+        .content(content))
+        .andExpect(status().isOk())
+        .andExpect(content().string(containsString("User registered successfully!")));
     }
 }

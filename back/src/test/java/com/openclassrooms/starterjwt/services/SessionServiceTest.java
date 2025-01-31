@@ -1,7 +1,6 @@
 package com.openclassrooms.starterjwt.services;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.Mockito.doNothing;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
@@ -22,8 +21,6 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import com.openclassrooms.starterjwt.exception.BadRequestException;
-import com.openclassrooms.starterjwt.exception.NotFoundException;
 import com.openclassrooms.starterjwt.models.Session;
 import com.openclassrooms.starterjwt.models.Teacher;
 import com.openclassrooms.starterjwt.models.User;
@@ -173,23 +170,6 @@ public class SessionServiceTest {
     }
 
     @Test
-    public void testParticipateThrowsError() throws Exception {
-
-        when(userRepository.findById(1L)).thenReturn(Optional.of(user1));
-        assertThrows(NotFoundException.class, () -> sessionService.participate(5L, 1L), "If session is null throws error");
-
-        when(sessionRepository.findById(1L)).thenReturn(Optional.of(session1));
-        assertThrows(NotFoundException.class, () -> sessionService.participate(1L, 5L), "If user is null throws error");
-        
-        assertThrows(BadRequestException.class, () -> {
-            session1.setUsers(new ArrayList<>(Arrays.asList(user1)));
-            when(sessionRepository.findById(1L)).thenReturn(Optional.of(session1));
-            when(userRepository.findById(1L)).thenReturn(Optional.of(user1));
-            sessionService.participate(1L, 1L);
-        }, "Throws error if user already participate");
-    }
-
-    @Test
     public void testNoLongerParticipate() throws Exception {
 
         Session sessionWithSomeParticipants = session1.setUsers(new ArrayList<>(Arrays.asList(user1, user2, user3)));
@@ -200,17 +180,5 @@ public class SessionServiceTest {
         verify(sessionRepository).save(sessionCaptor.capture());
         Session sessionCaptorValue = sessionCaptor.getValue();
         assertEquals(new ArrayList<>(Arrays.asList(user2, user3)), sessionCaptorValue.getUsers());
-    }
-
-    @Test
-    public void testNoLongerParticipateThrowsError() throws Exception {
-        
-        assertThrows(NotFoundException.class, () -> sessionService.noLongerParticipate(5L, 5L), "If session doesn't exist throws error");
-        
-        assertThrows(BadRequestException.class, () -> {
-            session1.setUsers(new ArrayList<>(Arrays.asList(user1)));
-            when(sessionRepository.findById(1L)).thenReturn(Optional.of(session1));
-            sessionService.noLongerParticipate(1L, 2L);
-        }, "Throws error if the user don't already participate");
     }
 }

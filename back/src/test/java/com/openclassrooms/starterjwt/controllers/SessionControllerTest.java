@@ -87,8 +87,6 @@ public class SessionControllerTest {
     public void setUp() throws Exception {
         MockitoAnnotations.initMocks(this);
 
-
-
         sessionController = new SessionController(sessionService, sessionMapper);
         mockMvc = MockMvcBuilders.standaloneSetup(sessionController).build();
 

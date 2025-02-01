@@ -14,7 +14,6 @@ public class TeacherController {
     private final TeacherMapper teacherMapper;
     private final TeacherService teacherService;
 
-
     public TeacherController(TeacherService teacherService,
                              TeacherMapper teacherMapper) {
         this.teacherMapper = teacherMapper;

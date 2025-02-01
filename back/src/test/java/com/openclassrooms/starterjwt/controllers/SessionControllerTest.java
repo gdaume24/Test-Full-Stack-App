@@ -1,8 +1,11 @@
 package com.openclassrooms.starterjwt.controllers;
 
+import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.delete;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.put;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 import static org.hamcrest.Matchers.is;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -23,6 +26,8 @@ import java.util.List;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.mockito.ArgumentCaptor;
+import org.mockito.Captor;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.springframework.http.MediaType;
@@ -35,6 +40,9 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
+import com.fasterxml.jackson.datatype.jdk8.Jdk8Module;
+import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
+import com.fasterxml.jackson.module.paramnames.ParameterNamesModule;
 import com.jayway.jsonpath.JsonPath;
 import com.openclassrooms.starterjwt.dto.SessionDto;
 import com.openclassrooms.starterjwt.mapper.SessionMapper;
@@ -47,8 +55,18 @@ import lombok.With;
 
 public class SessionControllerTest {
 
+    @Captor
+    private ArgumentCaptor<Long> idCaptor;
+
+    @Captor
+    private ArgumentCaptor<Long> userIdCaptor;
+
     ObjectMapper objectMapper = new ObjectMapper();
     ObjectWriter objectWriter = objectMapper.writer();
+    ObjectMapper mapper = new ObjectMapper()
+    .registerModule(new ParameterNamesModule())
+    .registerModule(new Jdk8Module())
+    .registerModule(new JavaTimeModule());
 
     @Mock
     private SessionService sessionService;
@@ -68,6 +86,8 @@ public class SessionControllerTest {
     @BeforeEach
     public void setUp() throws Exception {
         MockitoAnnotations.initMocks(this);
+
+
 
         sessionController = new SessionController(sessionService, sessionMapper);
         mockMvc = MockMvcBuilders.standaloneSetup(sessionController).build();
@@ -173,22 +193,199 @@ public class SessionControllerTest {
     }
 
     @Test
-    @WithMockUser(roles = {"USER", "ADMIN"})
+    @WithMockUser(roles = {"USER"})
     public void testCreate() throws Exception {
-    when(this.sessionMapper.toEntity(session1Dto)).thenReturn(session1);
-    when(this.sessionService.create(session1)).thenReturn(session1);
-    when(this.sessionMapper.toDto(session1)).thenReturn(session1Dto);
+        when(this.sessionMapper.toEntity(session1Dto)).thenReturn(session1);
+        when(this.sessionService.create(session1)).thenReturn(session1);
+        when(this.sessionMapper.toDto(session1)).thenReturn(session1Dto);
 
-    mockMvc.perform(post("/api/session")
-    .contentType(MediaType.APPLICATION_JSON)
-    .content(objectWriter.writeValueAsString(session1Dto)))
-    .andDo(print())
-    .andExpect(status().isOk())
-    .andExpect(jsonPath("$[0].id", is(1)))
-    .andExpect(jsonPath("$[0].name", is("Session Hardcore")))
-    .andExpect(jsonPath("$[0].teacher_id", is(1)))
-    .andExpect(jsonPath("$[0].description", is("This is a test session.")))
-    .andExpect(jsonPath("$[0].users[0]", is(1)));
+        ObjectMapper mapper = new ObjectMapper()
+            .registerModule(new ParameterNamesModule())
+            .registerModule(new Jdk8Module())
+            .registerModule(new JavaTimeModule());
+
+        mockMvc.perform(post("/api/session")
+            .contentType(MediaType.APPLICATION_JSON)
+            .content(mapper.writeValueAsString(session1Dto)))
+            .andDo(print())
+            .andExpect(status().isOk())
+            .andExpect(jsonPath("$.id", is(1)))
+            .andExpect(jsonPath("$.name", is("Session Hardcore")))
+            .andExpect(jsonPath("$.teacher_id", is(1)))
+            .andExpect(jsonPath("$.description", is("This is a test session.")))
+            .andExpect(jsonPath("$.users[0]", is(1)));
+    }
+
+    @Test
+    @WithMockUser(roles = {"USER"})
+    public void testUpdate() throws Exception {
+
+        Teacher teacher2 = new Teacher()
+        .setId(2L)
+        .setLastName("Prescilla")
+        .setFirstName("Jessica")
+        .setCreatedAt(LocalDateTime.now())
+        .setUpdatedAt(LocalDateTime.now());
+
+        Session session1Updated = new Session()
+        .setId(1L)
+        .setName("Session très Hardcore")
+        .setDate(date1)
+        .setDescription("This is a test session.")
+        .setTeacher(teacher2)
+        .setUsers(Arrays.asList(user1))
+        .setCreatedAt(LocalDateTime.now())
+        .setUpdatedAt(LocalDateTime.now());
+
+        SessionDto session1UpdatedDto = new SessionDto(
+            1L,
+            "Session très Hardcore",
+            date1,
+            2L,
+            "This is a test session.",
+            Arrays.asList(1L),
+            LocalDateTime.now(),
+            LocalDateTime.now()
+        );
+
+        when(this.sessionMapper.toEntity(session1UpdatedDto)).thenReturn(session1Updated);
+        when(this.sessionService.update(1L, session1Updated)).thenReturn(session1Updated);
+        when(this.sessionMapper.toDto(session1Updated)).thenReturn(session1UpdatedDto);
+
+        mockMvc.perform(put("/api/session/1")
+            .contentType(MediaType.APPLICATION_JSON)
+            .content(mapper.writeValueAsString(session1UpdatedDto)))
+            .andDo(print())
+            .andExpect(status().isOk())
+            .andExpect(jsonPath("$.id", is(1)))
+            .andExpect(jsonPath("$.name", is("Session très Hardcore")))
+            .andExpect(jsonPath("$.teacher_id", is(2)))
+            .andExpect(jsonPath("$.description", is("This is a test session.")))
+            .andExpect(jsonPath("$.users[0]", is(1)));
+    }
+
+    @Test
+    @WithMockUser(roles = {"USER"})
+    public void testUpdateWithInvalidIdThrowsNumberFormatException() throws Exception {
+
+        Teacher teacher2 = new Teacher()
+        .setId(2L)
+        .setLastName("Prescilla")
+        .setFirstName("Jessica")
+        .setCreatedAt(LocalDateTime.now())
+        .setUpdatedAt(LocalDateTime.now());
+
+        Session session1Updated = new Session()
+        .setId(1L)
+        .setName("Session très Hardcore")
+        .setDate(date1)
+        .setDescription("This is a test session.")
+        .setTeacher(teacher2)
+        .setUsers(Arrays.asList(user1))
+        .setCreatedAt(LocalDateTime.now())
+        .setUpdatedAt(LocalDateTime.now());
+
+        SessionDto session1UpdatedDto = new SessionDto(
+            1L,
+            "Session très Hardcore",
+            date1,
+            2L,
+            "This is a test session.",
+            Arrays.asList(1L),
+            LocalDateTime.now(),
+            LocalDateTime.now()
+        );
+
+        when(this.sessionMapper.toEntity(session1UpdatedDto)).thenReturn(session1Updated);
+        when(this.sessionService.update(1L, session1Updated)).thenReturn(session1Updated);
+        when(this.sessionMapper.toDto(session1Updated)).thenReturn(session1UpdatedDto);
+
+        mockMvc.perform(put("/api/session/zzzzzzzzzzzz")
+            .contentType(MediaType.APPLICATION_JSON)
+            .content(mapper.writeValueAsString(session1UpdatedDto)))
+            .andDo(print())
+            .andExpect(status().isBadRequest());
+    }
+
+    @Test
+    @WithMockUser(roles = {"USER"})
+    public void testDelete() throws Exception {
+
+        when(this.sessionService.getById(1L)).thenReturn(session1);
+
+        mockMvc.perform(delete("/api/session/1")
+            .contentType(MediaType.APPLICATION_JSON))
+            .andDo(print())
+            .andExpect(status().isOk());
+
+        verify(sessionService).delete(idCaptor.capture());
+
+        assertEquals(1L, idCaptor.getValue());
+    }
+
+    @Test
+    @WithMockUser(roles = {"USER"})
+    public void testDeleteSessionNotFound() throws Exception {
+
+        mockMvc.perform(delete("/api/session/1")
+            .contentType(MediaType.APPLICATION_JSON))
+            .andDo(print())
+            .andExpect(status().isNotFound());
+    }
+
+    @Test
+    @WithMockUser(roles = {"USER"})
+    public void testDeleteThrowsBadRequest() throws Exception {
+
+        mockMvc.perform(delete("/api/session/zzzzzzzzz")
+            .contentType(MediaType.APPLICATION_JSON))
+            .andDo(print())
+            .andExpect(status().isBadRequest());
+    }
+
+    @Test
+    @WithMockUser(roles = {"USER"})
+    public void testParticipate() throws Exception {
+
+        mockMvc.perform(post("/api/session/1/participate/1")
+                .contentType(MediaType.APPLICATION_JSON))
+                .andExpect(status().isOk());
+
+        verify(sessionService).participate(idCaptor.capture(), userIdCaptor.capture());
+
+        assertEquals(1L, idCaptor.getValue());
+        assertEquals(1L, userIdCaptor.getValue());
+    }
+
+    @Test
+    @WithMockUser(roles = {"USER"})
+    public void testParticipateReturnBadRequest() throws Exception {
+
+        mockMvc.perform(post("/api/session/zzzzz/participate/1")
+                .contentType(MediaType.APPLICATION_JSON))
+                .andExpect(status().isBadRequest());
+    }
+
+    @Test
+    @WithMockUser(roles = {"USER"})
+    public void testNoLongerParticipate() throws Exception {
+
+        mockMvc.perform(delete("/api/session/1/participate/1")
+                .contentType(MediaType.APPLICATION_JSON))
+                .andExpect(status().isOk());
+
+        verify(sessionService).noLongerParticipate(idCaptor.capture(), userIdCaptor.capture());
+
+        assertEquals(1L, idCaptor.getValue());
+        assertEquals(1L, userIdCaptor.getValue());
+    }
+
+    @Test
+    @WithMockUser(roles = {"USER"})
+    public void testNoLongerParticipateReturnBadRequest() throws Exception {
+
+        mockMvc.perform(delete("/api/session/1/participate/1zzzzzzzzz")
+                .contentType(MediaType.APPLICATION_JSON))
+                .andExpect(status().isBadRequest());
     }
 }
-

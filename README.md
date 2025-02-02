@@ -73,7 +73,7 @@ npm run e2e:ci
 The report will be shown in the terminal, the html file with the details is located at `coverage/lcov-report/index.html`
 
 ### To run unit and integration tests coverage on back-end : 
-In file explorer of VSCode, in `back/src`, right click on test, and click on "Run Tests with Coverage" option.
+In file explorer of VSCode, in `back/src`, right click on test, and click on "Run Tests with Coverage" option.  
 You will see the details of the code coverage directly in the file explorer of VSCode.
 
 

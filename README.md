@@ -4,7 +4,6 @@
 * Unit and integration tests of Spring back-end using Junit and Mockito
 
 ## Guide to run the app :
-
 1. Clone the repository somewhere in your machine and go inside it :  
 ```powershell
 git clone https://github.com/gdaume24/Test-Full-Stack-App.git

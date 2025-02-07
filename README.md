@@ -46,7 +46,7 @@ cd front
 npm i
 ```
 10. Run back server :  
-In your VSCode file explorer, find the file back/src/main/java/com/openclassrooms/startedjwt/SpringBootSecurityJwtApplication.java, right click on it and click 'Run Java'
+In your VSCode file explorer, find the file back/src/main/java/com/openclassrooms/startedjwt/SpringBootSecurityJwtApplication.java, right click on it and click 'Run Java'  
 12. Run front server  
 ```
 ng serve

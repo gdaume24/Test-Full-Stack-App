@@ -23,7 +23,7 @@ MYSQL_PASSWORD=your_password
 cd db
 docker-compose up -d
 ```
-Now that you're database is running, we will prepare the back-end dependencies :  
+Now that your database is running, we will prepare the back-end dependencies :  
 5. Create .env file in back folder, here is the template of the file for you to set your personal variables in
 ```
 MYSQL_URL=your_mysql_url

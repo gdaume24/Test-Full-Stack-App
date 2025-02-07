@@ -35,17 +35,17 @@ MYSQL_PASSWORD=your_password
 SECURITY_JWT_SECRET_KEY=your_jwt_key
 SECURITY_JWT_EXPIRATION_TIME=your_jwt_expiration_time
 ```
-6. Make sure you have Extension pack for Java installed in your VSCode, and a jdk-11 folder set in your JAVA_HOME system environment variable
-Before starting the back, we want to prepare the front-end dependencies
-7. Install nodejs 16 (uninstall your current version if needed)
+6. Make sure you have "Extension pack for Java installed" in your VSCode, and a folder containing the version 11 of jdk set in your JAVA_HOME system environment variable.  
+Before starting the back, we want to prepare the front-end dependencies, that can imply the restart of Vscode.  
+7. Install nodejs 16 (having Node Version Manager (NVM) makes this step easier)  
 8. Install Angular CLI 14 :
   ```npm install -g @angular/cli@14```
-9. Install dependencies :
+9. Install dependencies :  
 ```
 cd front
 npm i
 ```
-10. Run back server
+10. Run back server :  
 In your VSCode file explorer, find the file back/src/main/java/com/openclassrooms/startedjwt/SpringBootSecurityJwtApplication.java, right click on it and click 'Run Java'
 12. Run front server
 ```ng serve```

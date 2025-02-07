@@ -10,9 +10,9 @@
 git clone https://github.com/gdaume24/Test-Full-Stack-App.git
 cd Test-Full-Stack-App
 ```
-Now we want to run first the database :
-2. Ensure you have your docker engine running
-3. Create a .env file in db folder, as you can't create it in the root folder of the project, because it will not be detected by docker.
+Now we want to run first the database :  
+2. Ensure you have your docker engine running  
+3. Create a .env file in db folder, as you can't create it in the root folder of the project, because it will not be detected by docker.  
 Set your personal variables in the .env file
 ```
 MYSQL_USERNAME=your_user

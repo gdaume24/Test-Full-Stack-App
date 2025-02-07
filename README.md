@@ -24,7 +24,8 @@ cd db
 docker-compose up -d
 ```
 Now that your database is running, we will prepare the back-end dependencies :  
-5. Create .env file in back folder, here is the template of the file for you to set your personal variables in
+5. Create .env file in the "back" folder, here is the template of the file for you to set your personal variables in.  
+You need to set the 3 same variables from the .env of the database as in the template
 ```
 MYSQL_URL=your_mysql_url
 MYSQL_USERNAME=your_user

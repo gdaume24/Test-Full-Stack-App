@@ -66,7 +66,8 @@ The report will be shown in the terminal, the html file with the details is loca
 <ins>Note</ins> : The tests that have been edited manually are :
 - features/auth/component/login/login.component.spec.ts
 - features/auth/component/register/register.component.spec.ts
-- features/sessions/components/form/form.component.spec.ts 
+- features/sessions/components/form/form.component.spec.ts  
+- services/sessions.service.spec.ts  
   
 ### To run 'end to end' tests coverage on front-end :  
 ```

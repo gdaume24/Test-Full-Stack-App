@@ -18,7 +18,7 @@ before(() => {
   );
 });
 
-it("Affichage de la liste des sessions, verification des boutons Detail et Create en tant qu'admin", function () {
+it("Show session list, Verify 'Detail' and 'Create' button present as admin", function () {
   cy.visit('/login');
   cy.get('input[formControlName=email]').type(this.user.email);
   cy.get('input[formControlName=password]').type(this.user.password);

@@ -30,12 +30,12 @@ before(() => {
   );
 });
 
-it("Appuie sur 'Detail', les informations de la session sont correctement affichées. Vérification du boutons Delete en tant qu'admin", function () {
+it("Press 'Detail' button, session informations are shown correctly. Verify delete button is present as admin", function () {
   cy.visit('/login');
   cy.get('input[formControlName=email]').type(this.user.email);
   cy.get('input[formControlName=password]').type(this.user.password);
   cy.get('button[type=submit]').click();
-  cy.get('mat-card:nth-child(1)').contains('Detail').click();
+  cy.get('mat-card:nth-child(1)').scrollIntoView().contains('Detail').click();
   cy.get('h1').contains(this.session1Data.name, { matchCase: false });
   cy.get('mat-card-subtitle').contains(
     `${this.teacher1.firstName} ${this.teacher1.lastName}`,

@@ -18,7 +18,7 @@ before(() => {
   );
 });
 
-it("La connexion d'un utilisateur renvoie bien à la page des sessions", function () {
+it('Connexion redirects to session page', function () {
   cy.visit('/');
   cy.contains('Login').click();
   cy.url().should('include', '/login');

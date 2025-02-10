@@ -7,7 +7,7 @@ before(() => {
   });
 });
 
-it("L'inscription d'un utilisateur renvoie bien à la page de connexion", function () {
+it('User registration redirects to the login page', function () {
   cy.visit('/');
   cy.contains('Register').click();
   cy.url().should('include', '/register');

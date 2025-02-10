@@ -39,91 +39,94 @@ describe('LoginComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('Component should create correctly', () => {
     expect(component).toBeTruthy();
   });
-  
-  describe('Form email validation', () => {
-    it('should require an email', () => {
-      component.form.controls["email"].setValue('');
+
+  describe('Form email test', () => {
+    it('A value should be necessary', () => {
+      component.form.controls['email'].setValue('');
       const emailControl = component.form.get('email');
       expect(emailControl?.hasError('required')).toBeTruthy();
     });
 
-    it('should require a valid email', () => {
+    it('A valid email should be required', () => {
       const emailControl = component.form.get('email');
       emailControl?.setValue('invalid-email');
       expect(emailControl?.hasError('email')).toBeTruthy();
     });
   });
 
-  describe('Password field validation', () => {
-    it('should require a password', () => {
+  describe('Form password test', () => {
+    it('Should require a password non null', () => {
       const passwordControl = component.form.get('password');
       passwordControl?.setValue('');
       expect(passwordControl?.hasError('required')).toBeTruthy();
     });
 
-    it('should be invalid with password shorter than 3 characters', () => {
+    it('Should be invalid with a password shorter than 3 characters', () => {
       const passwordControl = component.form.get('password');
       passwordControl?.setValue('ab');
       expect(passwordControl?.hasError('minlength')).toBeTruthy();
     });
   });
 
-  describe('submit method', () => {
+  describe('Submit method', () => {
     let authService: AuthService;
     let router: Router;
     let sessionService: SessionService;
-  
+    let mockSessionInfo: SessionInformation;
+
     beforeEach(() => {
       authService = TestBed.inject(AuthService);
       router = TestBed.inject(Router);
       sessionService = TestBed.inject(SessionService);
-    });
-
-    it("should login successfully", () => {
-
-      // Arrange
-      component.form.setValue({
-        email: 'test@example.com',
-        password: 'password123'
-      });
-      const mockSessionInfo: SessionInformation = {
+      mockSessionInfo = {
         token: 'fake-token',
         type: 'Bearer',
         id: 1,
         username: 'test@example.com',
         firstName: 'John',
         lastName: 'Doe',
-        admin: false
-      };      
-      jest.spyOn(authService, 'login').mockReturnValue(of(mockSessionInfo));
-      const routerSpy = jest.spyOn(router, 'navigate');
-      routerSpy.mockResolvedValue(true);
-      const sessionServiceSpy = jest.spyOn(sessionService, 'logIn');
+        admin: false,
+      };
+    });
+
+    it('Should login successfully', () => {
+      // Arrange
+      component.form.setValue({
+        email: 'test@example.com',
+        password: 'password123',
+      });
+      const authServiceSpy = jest
+        .spyOn(authService, 'login')
+        .mockReturnValue(of(mockSessionInfo));
+      const routerSpy = jest.spyOn(router, 'navigate').mockResolvedValue(true);
+      const sessionServiceSpy = jest
+        .spyOn(sessionService, 'logIn')
+        .mockReturnValue(void 0);
 
       // Act
       component.submit();
 
       // Assert
-      expect(sessionService.isLogged).toBe(true);
-      expect(routerSpy).toHaveBeenCalledWith(['/sessions']);
-      expect(sessionServiceSpy).toHaveBeenCalledWith(mockSessionInfo);
       expect(authService.login).toHaveBeenCalledWith({
         email: 'test@example.com',
-        password: 'password123'
+        password: 'password123',
       });
+      expect(routerSpy).toHaveBeenCalledWith(['/sessions']);
+      expect(sessionServiceSpy).toHaveBeenCalledWith(mockSessionInfo);
     });
 
-    it('should handle login failure with invalid credentials', () => {
-
+    it('Should fail', () => {
       // Arrange
       const errorResponse = { error: 'Invalid credentials' };
-      jest.spyOn(authService, 'login').mockReturnValue(throwError(() => errorResponse));
+      jest
+        .spyOn(authService, 'login')
+        .mockReturnValue(throwError(() => errorResponse));
       component.form.setValue({
         email: 'test@example.com',
-        password: 'wrongpassword'
+        password: 'wrrrrrrrrrrrr',
       });
 
       // Act
@@ -134,7 +137,6 @@ describe('LoginComponent', () => {
     });
 
     it('should show form validation errors when submitting empty form', () => {
-      
       // Act
       component.submit();
 

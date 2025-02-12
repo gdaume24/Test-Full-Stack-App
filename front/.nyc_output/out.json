@@ -1,6 +1,6 @@
 {
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/jest.config.js": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/jest.config.js",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/jest.config.js": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/jest.config.js",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -8,8 +8,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/learning/sum.js": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/learning/sum.js",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/learning/sum.js": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/learning/sum.js",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -17,8 +17,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/learning/sum.test.js": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/learning/sum.test.js",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/learning/sum.test.js": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/learning/sum.test.js",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -26,8 +26,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/learning/sum.js": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/learning/sum.js",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/learning/sum.js": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/learning/sum.js",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -35,8 +35,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/learning/sum.test.js": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/learning/sum.test.js",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/learning/sum.test.js": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/learning/sum.test.js",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -44,8 +44,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/cypress.config.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/cypress.config.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/cypress.config.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/cypress.config.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -53,8 +53,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/setup-jest.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/setup-jest.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/setup-jest.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/setup-jest.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -62,8 +62,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/test-config.helper.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/test-config.helper.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/test-config.helper.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/test-config.helper.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -71,8 +71,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/polyfills.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/polyfills.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/polyfills.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/polyfills.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -80,8 +80,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/polyfills.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/polyfills.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/polyfills.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/polyfills.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -89,8 +89,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/app-routing.module.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/app-routing.module.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/app-routing.module.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/app-routing.module.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -98,8 +98,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/app.component.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/app.component.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/app.component.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/app.component.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -107,8 +107,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/app.module.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/app.module.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/app.module.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/app.module.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -116,8 +116,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/environments/environment.prod.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/environments/environment.prod.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/environments/environment.prod.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/environments/environment.prod.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -125,8 +125,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/environments/environment.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/environments/environment.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/environments/environment.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/environments/environment.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -134,8 +134,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/app-routing.module.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/app-routing.module.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/app-routing.module.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/app-routing.module.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -143,8 +143,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/app.component.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/app.component.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/app.component.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/app.component.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -152,8 +152,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/app.module.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/app.module.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/app.module.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/app.module.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -161,8 +161,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/environments/environment.prod.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/environments/environment.prod.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/environments/environment.prod.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/environments/environment.prod.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -170,8 +170,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/environments/environment.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/environments/environment.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/environments/environment.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/environments/environment.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -179,8 +179,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/guards/auth.guard.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/guards/auth.guard.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/guards/auth.guard.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/guards/auth.guard.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -188,8 +188,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/guards/unauth.guard.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/guards/unauth.guard.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/guards/unauth.guard.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/guards/unauth.guard.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -197,8 +197,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/interceptors/jwt.interceptor.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/interceptors/jwt.interceptor.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/interceptors/jwt.interceptor.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/interceptors/jwt.interceptor.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -206,8 +206,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/interfaces/sessionInformation.interface.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/interfaces/sessionInformation.interface.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/interfaces/sessionInformation.interface.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/interfaces/sessionInformation.interface.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -215,8 +215,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/interfaces/teacher.interface.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/interfaces/teacher.interface.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/interfaces/teacher.interface.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/interfaces/teacher.interface.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -224,8 +224,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/interfaces/user.interface.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/interfaces/user.interface.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/interfaces/user.interface.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/interfaces/user.interface.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -233,8 +233,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/services/session.service.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/services/session.service.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/services/session.service.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/services/session.service.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -242,8 +242,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/services/teacher.service.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/services/teacher.service.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/services/teacher.service.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/services/teacher.service.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -251,8 +251,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/services/user.service.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/services/user.service.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/services/user.service.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/services/user.service.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -260,8 +260,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/guards/auth.guard.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/guards/auth.guard.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/guards/auth.guard.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/guards/auth.guard.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -269,8 +269,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/guards/unauth.guard.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/guards/unauth.guard.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/guards/unauth.guard.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/guards/unauth.guard.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -278,8 +278,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/interceptors/jwt.interceptor.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/interceptors/jwt.interceptor.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/interceptors/jwt.interceptor.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/interceptors/jwt.interceptor.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -287,8 +287,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/interfaces/sessionInformation.interface.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/interfaces/sessionInformation.interface.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/interfaces/sessionInformation.interface.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/interfaces/sessionInformation.interface.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -296,8 +296,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/interfaces/teacher.interface.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/interfaces/teacher.interface.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/interfaces/teacher.interface.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/interfaces/teacher.interface.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -305,8 +305,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/interfaces/user.interface.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/interfaces/user.interface.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/interfaces/user.interface.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/interfaces/user.interface.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -314,8 +314,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/services/session.service.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/services/session.service.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/services/session.service.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/services/session.service.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -323,8 +323,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/services/teacher.service.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/services/teacher.service.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/services/teacher.service.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/services/teacher.service.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -332,8 +332,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/services/user.service.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/services/user.service.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/services/user.service.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/services/user.service.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -341,8 +341,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/components/me/me.component.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/components/me/me.component.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/components/me/me.component.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/components/me/me.component.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -350,8 +350,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/components/not-found/not-found.component.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/components/not-found/not-found.component.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/components/not-found/not-found.component.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/components/not-found/not-found.component.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -359,8 +359,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/features/auth/auth-routing.module.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/features/auth/auth-routing.module.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/features/auth/auth-routing.module.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/features/auth/auth-routing.module.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -368,8 +368,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/features/auth/auth.module.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/features/auth/auth.module.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/features/auth/auth.module.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/features/auth/auth.module.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -377,8 +377,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/features/sessions/sessions-routing.module.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/features/sessions/sessions-routing.module.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/features/sessions/sessions-routing.module.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/features/sessions/sessions-routing.module.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -386,8 +386,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/features/sessions/sessions.module.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/features/sessions/sessions.module.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/features/sessions/sessions.module.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/features/sessions/sessions.module.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -395,8 +395,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/components/me/me.component.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/components/me/me.component.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/components/me/me.component.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/components/me/me.component.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -404,8 +404,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/components/not-found/not-found.component.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/components/not-found/not-found.component.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/components/not-found/not-found.component.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/components/not-found/not-found.component.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -413,8 +413,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/features/auth/auth-routing.module.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/features/auth/auth-routing.module.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/features/auth/auth-routing.module.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/features/auth/auth-routing.module.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -422,8 +422,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/features/auth/auth.module.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/features/auth/auth.module.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/features/auth/auth.module.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/features/auth/auth.module.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -431,8 +431,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/features/sessions/sessions-routing.module.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/features/sessions/sessions-routing.module.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/features/sessions/sessions-routing.module.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/features/sessions/sessions-routing.module.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -440,8 +440,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/features/sessions/sessions.module.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/features/sessions/sessions.module.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/features/sessions/sessions.module.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/features/sessions/sessions.module.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -449,8 +449,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/features/auth/interfaces/loginRequest.interface.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/features/auth/interfaces/loginRequest.interface.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/features/auth/interfaces/loginRequest.interface.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/features/auth/interfaces/loginRequest.interface.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -458,8 +458,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/features/auth/interfaces/registerRequest.interface.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/features/auth/interfaces/registerRequest.interface.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/features/auth/interfaces/registerRequest.interface.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/features/auth/interfaces/registerRequest.interface.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -467,8 +467,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/features/auth/services/auth.service.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/features/auth/services/auth.service.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/features/auth/services/auth.service.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/features/auth/services/auth.service.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -476,8 +476,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/features/sessions/interfaces/session.interface.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/features/sessions/interfaces/session.interface.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/features/sessions/interfaces/session.interface.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/features/sessions/interfaces/session.interface.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -485,8 +485,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/features/sessions/services/session-api.service.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/features/sessions/services/session-api.service.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/features/sessions/services/session-api.service.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/features/sessions/services/session-api.service.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -494,8 +494,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/features/auth/interfaces/loginRequest.interface.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/features/auth/interfaces/loginRequest.interface.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/features/auth/interfaces/loginRequest.interface.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/features/auth/interfaces/loginRequest.interface.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -503,8 +503,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/features/auth/interfaces/registerRequest.interface.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/features/auth/interfaces/registerRequest.interface.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/features/auth/interfaces/registerRequest.interface.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/features/auth/interfaces/registerRequest.interface.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -512,8 +512,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/features/auth/services/auth.service.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/features/auth/services/auth.service.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/features/auth/services/auth.service.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/features/auth/services/auth.service.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -521,8 +521,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/features/sessions/interfaces/session.interface.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/features/sessions/interfaces/session.interface.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/features/sessions/interfaces/session.interface.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/features/sessions/interfaces/session.interface.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -530,8 +530,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/features/sessions/services/session-api.service.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/features/sessions/services/session-api.service.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/features/sessions/services/session-api.service.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/features/sessions/services/session-api.service.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -539,8 +539,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/features/auth/components/login/login.component.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/features/auth/components/login/login.component.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/features/auth/components/login/login.component.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/features/auth/components/login/login.component.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -548,8 +548,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/features/auth/components/register/register.component.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/features/auth/components/register/register.component.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/features/auth/components/register/register.component.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/features/auth/components/register/register.component.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -557,8 +557,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/features/sessions/components/detail/detail.component.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/features/sessions/components/detail/detail.component.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/features/sessions/components/detail/detail.component.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/features/sessions/components/detail/detail.component.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -566,8 +566,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/features/sessions/components/form/form.component.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/features/sessions/components/form/form.component.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/features/sessions/components/form/form.component.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/features/sessions/components/form/form.component.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -575,8 +575,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/features/sessions/components/list/list.component.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/instrumented/app/features/sessions/components/list/list.component.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/features/sessions/components/list/list.component.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/instrumented/app/features/sessions/components/list/list.component.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -584,8 +584,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/features/auth/components/login/login.component.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/features/auth/components/login/login.component.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/features/auth/components/login/login.component.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/features/auth/components/login/login.component.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -593,8 +593,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/features/auth/components/register/register.component.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/features/auth/components/register/register.component.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/features/auth/components/register/register.component.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/features/auth/components/register/register.component.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -602,8 +602,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/features/sessions/components/detail/detail.component.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/features/sessions/components/detail/detail.component.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/features/sessions/components/detail/detail.component.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/features/sessions/components/detail/detail.component.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -611,8 +611,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/features/sessions/components/form/form.component.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/features/sessions/components/form/form.component.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/features/sessions/components/form/form.component.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/features/sessions/components/form/form.component.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -620,8 +620,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/features/sessions/components/list/list.component.ts": {
-    "path": "C:/Users/gdaumer/Workdir/Openclassrooms/Projet 5/Testez-une-application-full-stack/front/src/app/features/sessions/components/list/list.component.ts",
+  "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/features/sessions/components/list/list.component.ts": {
+    "path": "D:/WORKDIR/OC/p5/Test-Full-Stack-App/front/src/app/features/sessions/components/list/list.component.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -629,8 +629,8 @@
     "f": {},
     "b": {}
   },
-  "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\polyfills.ts": {
-    "path": "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\polyfills.ts",
+  "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\polyfills.ts": {
+    "path": "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\polyfills.ts",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -643,17 +643,17 @@
       "names": [],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\polyfills.ts"
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\polyfills.ts"
       ],
       "sourcesContent": [
         "/**\r\n * This file includes polyfills needed by Angular and is loaded before the app.\r\n * You can add your own extra polyfills to this file.\r\n *\r\n * This file is divided into 2 sections:\r\n *   1. Browser polyfills. These are applied before loading ZoneJS and are sorted by browsers.\r\n *   2. Application imports. Files imported after ZoneJS that should be loaded before your main\r\n *      file.\r\n *\r\n * The current setup is for so-called \"evergreen\" browsers; the last versions of browsers that\r\n * automatically update themselves. This includes recent versions of Safari, Chrome (including\r\n * Opera), Edge on the desktop, and iOS and Chrome on mobile.\r\n *\r\n * Learn more in https://angular.io/guide/browser-support\r\n */\r\n\r\n/***************************************************************************************************\r\n * BROWSER POLYFILLS\r\n */\r\n\r\n/**\r\n * By default, zone.js will patch all possible macroTask and DomEvents\r\n * user can disable parts of macroTask/DomEvents patch by setting following flags\r\n * because those flags need to be set before `zone.js` being loaded, and webpack\r\n * will put import in the top of bundle, so user need to create a separate file\r\n * in this directory (for example: zone-flags.ts), and put the following flags\r\n * into that file, and then add the following code before importing zone.js.\r\n * import './zone-flags';\r\n *\r\n * The flags allowed in zone-flags.ts are listed here.\r\n *\r\n * The following flags will work for all browsers.\r\n *\r\n * (window as any).__Zone_disable_requestAnimationFrame = true; // disable patch requestAnimationFrame\r\n * (window as any).__Zone_disable_on_property = true; // disable patch onProperty such as onclick\r\n * (window as any).__zone_symbol__UNPATCHED_EVENTS = ['scroll', 'mousemove']; // disable patch specified eventNames\r\n *\r\n *  in IE/Edge developer tools, the addEventListener will also be wrapped by zone.js\r\n *  with the following flag, it will bypass `zone.js` patch for IE/Edge\r\n *\r\n *  (window as any).__Zone_enable_cross_context_check = true;\r\n *\r\n */\r\n\r\n/***************************************************************************************************\r\n * Zone JS is required by default for Angular itself.\r\n */\r\nimport 'zone.js';  // Included with Angular CLI.\r\n\r\n\r\n/***************************************************************************************************\r\n * APPLICATION IMPORTS\r\n */\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "b63379cd25185a65edce4b2ddf9e5ace45176ce2"
+    "hash": "3437e3564df543fc7c2e8220cb59a9a00c95e887"
   },
-  "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\services\\session.service.ts": {
-    "path": "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\services\\session.service.ts",
+  "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\services\\session.service.ts": {
+    "path": "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\services\\session.service.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -1015,35 +1015,35 @@
       }
     },
     "s": {
-      "0": 9,
-      "1": 9,
-      "2": 9,
-      "3": 668,
-      "4": 8,
-      "5": 8,
-      "6": 8,
-      "7": 1,
-      "8": 1,
-      "9": 1,
-      "10": 9,
-      "11": 9,
-      "12": 9,
-      "13": 9,
-      "14": 9
+      "0": 18,
+      "1": 18,
+      "2": 18,
+      "3": 1348,
+      "4": 16,
+      "5": 16,
+      "6": 16,
+      "7": 2,
+      "8": 2,
+      "9": 2,
+      "10": 18,
+      "11": 18,
+      "12": 18,
+      "13": 18,
+      "14": 18
     },
     "f": {
-      "0": 9,
-      "1": 9,
-      "2": 668,
-      "3": 8,
-      "4": 1,
-      "5": 9,
-      "6": 9
+      "0": 18,
+      "1": 18,
+      "2": 1348,
+      "3": 16,
+      "4": 2,
+      "5": 18,
+      "6": 18
     },
     "b": {
       "0": [
-        9,
-        9
+        18,
+        18
       ]
     },
     "inputSourceMap": {
@@ -1068,17 +1068,17 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\services\\session.service.ts"
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\services\\session.service.ts"
       ],
       "sourcesContent": [
         "import { Injectable } from '@angular/core';\r\nimport { BehaviorSubject, Observable } from 'rxjs';\r\nimport { SessionInformation } from '../interfaces/sessionInformation.interface';\r\n\r\n@Injectable({\r\n  providedIn: 'root'\r\n})\r\nexport class SessionService {\r\n\r\n  public isLogged = false;\r\n  public sessionInformation: SessionInformation | undefined;\r\n\r\n  private isLoggedSubject = new BehaviorSubject<boolean>(this.isLogged);\r\n\r\n  public $isLogged(): Observable<boolean> {\r\n    return this.isLoggedSubject.asObservable();\r\n  }\r\n\r\n  public logIn(user: SessionInformation): void {\r\n    this.sessionInformation = user;\r\n    this.isLogged = true;\r\n    this.next();\r\n  }\r\n\r\n  public logOut(): void {\r\n    this.sessionInformation = undefined;\r\n    this.isLogged = false;\r\n    this.next();\r\n  }\r\n\r\n  private next(): void {\r\n    this.isLoggedSubject.next(this.isLogged);\r\n  }\r\n}\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "b2d58186c24a06a110940b508d8c8de8718c4d87"
+    "hash": "43443acea8e9726a92f8851cb659ff0d957d4796"
   },
-  "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\services\\user.service.ts": {
-    "path": "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\services\\user.service.ts",
+  "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\services\\user.service.ts": {
+    "path": "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\services\\user.service.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -1332,27 +1332,27 @@
       }
     },
     "s": {
-      "0": 9,
-      "1": 1,
-      "2": 1,
-      "3": 1,
+      "0": 18,
+      "1": 2,
+      "2": 2,
+      "3": 2,
       "4": 0,
-      "5": 9,
-      "6": 1,
-      "7": 9,
-      "8": 9
+      "5": 18,
+      "6": 2,
+      "7": 18,
+      "8": 18
     },
     "f": {
-      "0": 9,
-      "1": 1,
-      "2": 1,
+      "0": 18,
+      "1": 2,
+      "2": 2,
       "3": 0,
-      "4": 1
+      "4": 2
     },
     "b": {
       "0": [
-        1,
-        1
+        2,
+        2
       ]
     },
     "inputSourceMap": {
@@ -1373,17 +1373,17 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\services\\user.service.ts"
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\services\\user.service.ts"
       ],
       "sourcesContent": [
         "import { HttpClient } from '@angular/common/http';\r\nimport { Injectable } from '@angular/core';\r\nimport { Observable } from 'rxjs';\r\nimport { User } from '../interfaces/user.interface';\r\n\r\n@Injectable({\r\n  providedIn: 'root'\r\n})\r\nexport class UserService {\r\n\r\n  private pathService = 'api/user';\r\n\r\n  constructor(private httpClient: HttpClient) { }\r\n\r\n  public getById(id: string): Observable<User> {\r\n    return this.httpClient.get<User>(`${this.pathService}/${id}`);\r\n  }\r\n\r\n  public delete(id: string): Observable<any> {\r\n    return this.httpClient.delete(`${this.pathService}/${id}`);\r\n  }\r\n}\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "daf116cd70a497ce769ca28f5202ea7a77dcfb95"
+    "hash": "92464a4a1f6081d07411b4c251475d8f11969410"
   },
-  "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\components\\me\\me.component.ts": {
-    "path": "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\components\\me\\me.component.ts",
+  "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\components\\me\\me.component.ts": {
+    "path": "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\components\\me\\me.component.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -2859,10 +2859,10 @@
       }
     },
     "s": {
-      "0": 3,
-      "1": 1,
-      "2": 1,
-      "3": 1,
+      "0": 6,
+      "1": 2,
+      "2": 2,
+      "3": 2,
       "4": 0,
       "5": 0,
       "6": 0,
@@ -2879,119 +2879,119 @@
       "17": 0,
       "18": 0,
       "19": 0,
-      "20": 3,
-      "21": 1,
-      "22": 1,
-      "23": 1,
-      "24": 1,
-      "25": 1,
-      "26": 1,
-      "27": 1,
-      "28": 1,
-      "29": 1,
-      "30": 1,
-      "31": 1,
-      "32": 1,
-      "33": 1,
-      "34": 1,
-      "35": 1,
-      "36": 1,
-      "37": 1,
-      "38": 1,
-      "39": 1,
-      "40": 1,
-      "41": 1,
-      "42": 3,
-      "43": 2,
-      "44": 2,
-      "45": 2,
-      "46": 2,
-      "47": 2,
-      "48": 2,
-      "49": 2,
-      "50": 2,
-      "51": 2,
-      "52": 2,
-      "53": 2,
-      "54": 2,
-      "55": 2,
-      "56": 9,
-      "57": 1,
-      "58": 1,
-      "59": 1,
-      "60": 1,
-      "61": 1,
-      "62": 1,
+      "20": 6,
+      "21": 2,
+      "22": 2,
+      "23": 2,
+      "24": 2,
+      "25": 2,
+      "26": 2,
+      "27": 2,
+      "28": 2,
+      "29": 2,
+      "30": 2,
+      "31": 2,
+      "32": 2,
+      "33": 2,
+      "34": 2,
+      "35": 2,
+      "36": 2,
+      "37": 2,
+      "38": 2,
+      "39": 2,
+      "40": 2,
+      "41": 2,
+      "42": 6,
+      "43": 4,
+      "44": 4,
+      "45": 4,
+      "46": 4,
+      "47": 4,
+      "48": 4,
+      "49": 4,
+      "50": 4,
+      "51": 4,
+      "52": 4,
+      "53": 4,
+      "54": 4,
+      "55": 4,
+      "56": 18,
+      "57": 2,
+      "58": 2,
+      "59": 2,
+      "60": 2,
+      "61": 2,
+      "62": 2,
       "63": 0,
       "64": 0,
       "65": 0,
       "66": 0,
       "67": 0,
-      "68": 9,
-      "69": 1,
-      "70": 9,
-      "71": 10,
-      "72": 1,
-      "73": 1,
+      "68": 18,
+      "69": 2,
+      "70": 18,
+      "71": 16,
+      "72": 2,
+      "73": 2,
       "74": 0,
-      "75": 1,
-      "76": 1,
-      "77": 1,
-      "78": 1,
-      "79": 1,
-      "80": 1,
-      "81": 1,
-      "82": 1,
-      "83": 1,
-      "84": 10,
-      "85": 9,
-      "86": 9,
-      "87": 9
+      "75": 2,
+      "76": 2,
+      "77": 2,
+      "78": 2,
+      "79": 2,
+      "80": 2,
+      "81": 2,
+      "82": 2,
+      "83": 2,
+      "84": 16,
+      "85": 14,
+      "86": 14,
+      "87": 18
     },
     "f": {
-      "0": 3,
+      "0": 6,
       "1": 0,
       "2": 0,
-      "3": 3,
-      "4": 9,
-      "5": 1,
-      "6": 1,
-      "7": 1,
+      "3": 6,
+      "4": 18,
+      "5": 2,
+      "6": 2,
+      "7": 2,
       "8": 0,
       "9": 0,
       "10": 0,
-      "11": 1,
-      "12": 10,
+      "11": 2,
+      "12": 16,
       "13": 0
     },
     "b": {
       "0": [
-        1,
-        2
+        2,
+        4
       ],
       "1": [
         0,
         0
       ],
       "2": [
-        1,
-        2
+        2,
+        4
       ],
       "3": [
-        2,
-        1
+        4,
+        2
       ],
       "4": [
-        1,
-        1
+        2,
+        2
       ],
       "5": [
-        1,
-        9
+        2,
+        14
       ],
       "6": [
-        9,
-        1
+        14,
+        2
       ]
     },
     "inputSourceMap": {
@@ -3030,8 +3030,8 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\components\\me\\me.component.html",
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\components\\me\\me.component.ts"
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\components\\me\\me.component.html",
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\components\\me\\me.component.ts"
       ],
       "sourcesContent": [
         "<div class=\"m3\">\r\n  <mat-card>\r\n    <mat-card-title>\r\n      <div fxLayout=\"row\" fxLayoutAlign=\"start center\">\r\n        <button mat-icon-button (click)=\"back()\">\r\n          <mat-icon>arrow_back</mat-icon>\r\n        </button>\r\n        <h1>User information</h1>\r\n      </div>\r\n    </mat-card-title>\r\n    <mat-card-content>\r\n      <div *ngIf=\"user\" fxLayout=\"column\" fxLayoutAlign=\"start center\">\r\n        <p>Name: {{ user.firstName }} {{ user.lastName | uppercase }}</p>\r\n        <p>Email: {{ user.email }}</p>\r\n        <p *ngIf=\"user.admin\" class=\"my2\">You are admin</p>\r\n        <div *ngIf=\"!user.admin\" fxLayout=\"column\" class=\"my2\" fxLayoutAlign=\"center center\">\r\n          <p>Delete my account:</p>\r\n          <button mat-raised-button color=\"warn\" (click)=\"delete()\">\r\n            <mat-icon>delete</mat-icon>\r\n            <span class=\"ml1\">Detail</span>\r\n          </button>\r\n        </div>\r\n        <div fxLayoutAlign=\"space-between center\" class=\"p2 w100\">\r\n\r\n          <p><i>Create at: </i> {{ user.createdAt | date: 'longDate'}}</p>\r\n          <p><i>Last update: </i> {{ user.updatedAt| date: 'longDate'}}</p>\r\n        </div>\r\n      </div>\r\n    </mat-card-content>\r\n  </mat-card>\r\n</div>\r\n",
@@ -3039,10 +3039,10 @@
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "1b599cb31e1652dd104353e3c43e5f8fdffea67d"
+    "hash": "17e68a284dd841c9f554e88cfaaec0bc35afb591"
   },
-  "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\components\\not-found\\not-found.component.ts": {
-    "path": "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\components\\not-found\\not-found.component.ts",
+  "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\components\\not-found\\not-found.component.ts": {
+    "path": "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\components\\not-found\\not-found.component.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -3284,18 +3284,18 @@
       }
     },
     "s": {
-      "0": 9,
-      "1": 9,
+      "0": 18,
+      "1": 18,
       "2": 0,
-      "3": 9,
+      "3": 18,
       "4": 0,
       "5": 0,
       "6": 0,
       "7": 0,
-      "8": 9
+      "8": 18
     },
     "f": {
-      "0": 9,
+      "0": 18,
       "1": 0,
       "2": 0
     },
@@ -3323,8 +3323,8 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\components\\not-found\\not-found.component.ts",
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\components\\not-found\\not-found.component.html"
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\components\\not-found\\not-found.component.ts",
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\components\\not-found\\not-found.component.html"
       ],
       "sourcesContent": [
         "import { Component } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'app-not-found',\r\n  templateUrl: './not-found.component.html',\r\n  styleUrls: ['./not-found.component.scss']\r\n})\r\nexport class NotFoundComponent {\r\n}\r\n",
@@ -3332,10 +3332,10 @@
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "f0c52e322e9b08f57fcb531ed4bf894e354c24d5"
+    "hash": "9a7f4cd08566b3cd823bc484dcdca240c8f300ee"
   },
-  "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\guards\\auth.guard.ts": {
-    "path": "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\guards\\auth.guard.ts",
+  "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\guards\\auth.guard.ts": {
+    "path": "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\guards\\auth.guard.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -3621,32 +3621,32 @@
       }
     },
     "s": {
-      "0": 9,
-      "1": 8,
-      "2": 8,
-      "3": 8,
+      "0": 18,
+      "1": 16,
+      "2": 16,
+      "3": 18,
       "4": 0,
       "5": 0,
-      "6": 8,
-      "7": 9,
-      "8": 8,
-      "9": 9,
-      "10": 9
+      "6": 18,
+      "7": 18,
+      "8": 16,
+      "9": 18,
+      "10": 18
     },
     "f": {
-      "0": 9,
-      "1": 8,
-      "2": 8,
-      "3": 8
+      "0": 18,
+      "1": 16,
+      "2": 18,
+      "3": 16
     },
     "b": {
       "0": [
         0,
-        8
+        18
       ],
       "1": [
-        8,
-        8
+        16,
+        16
       ]
     },
     "inputSourceMap": {
@@ -3667,17 +3667,17 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\guards\\auth.guard.ts"
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\guards\\auth.guard.ts"
       ],
       "sourcesContent": [
         "import {Injectable} from \"@angular/core\";\r\nimport {CanActivate, Router} from \"@angular/router\"; \r\nimport { SessionService } from \"../services/session.service\";\r\n\r\n@Injectable({providedIn: 'root'})\r\nexport class AuthGuard implements CanActivate {\r\n\r\n  constructor( \r\n    private router: Router,\r\n    private sessionService: SessionService,\r\n  ) {\r\n  }\r\n\r\n  public canActivate(): boolean {\r\n    if (!this.sessionService.isLogged) {\r\n      this.router.navigate(['login']);\r\n      return false;\r\n    }\r\n    return true;\r\n  }\r\n}"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "a3cc52c922bb5391b86f32a39b20b6a9f9887490"
+    "hash": "bae6f80f7682c2afa8e46bf18a421189b2f531a4"
   },
-  "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\guards\\unauth.guard.ts": {
-    "path": "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\guards\\unauth.guard.ts",
+  "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\guards\\unauth.guard.ts": {
+    "path": "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\guards\\unauth.guard.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -3963,32 +3963,32 @@
       }
     },
     "s": {
-      "0": 9,
-      "1": 9,
-      "2": 9,
-      "3": 10,
+      "0": 18,
+      "1": 18,
+      "2": 18,
+      "3": 20,
       "4": 0,
       "5": 0,
-      "6": 10,
-      "7": 9,
-      "8": 9,
-      "9": 9,
-      "10": 9
+      "6": 20,
+      "7": 18,
+      "8": 18,
+      "9": 18,
+      "10": 18
     },
     "f": {
-      "0": 9,
-      "1": 9,
-      "2": 10,
-      "3": 9
+      "0": 18,
+      "1": 18,
+      "2": 20,
+      "3": 18
     },
     "b": {
       "0": [
         0,
-        10
+        20
       ],
       "1": [
-        9,
-        9
+        18,
+        18
       ]
     },
     "inputSourceMap": {
@@ -4009,17 +4009,17 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\guards\\unauth.guard.ts"
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\guards\\unauth.guard.ts"
       ],
       "sourcesContent": [
         "import {Injectable} from \"@angular/core\";\r\nimport {CanActivate, Router} from \"@angular/router\"; \r\nimport { SessionService } from \"../services/session.service\";\r\n\r\n@Injectable({providedIn: 'root'})\r\nexport class UnauthGuard implements CanActivate {\r\n\r\n  constructor( \r\n    private router: Router,\r\n    private sessionService: SessionService,\r\n  ) {\r\n  }\r\n\r\n  public canActivate(): boolean {\r\n    if (this.sessionService.isLogged) {\r\n      this.router.navigate(['rentals']);\r\n      return false;\r\n    }\r\n    return true;\r\n  }\r\n}"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "54a06418d56a513457692c40e4120c426238ba97"
+    "hash": "b4843a5d10cd668851f52e0d89b2b5302a491c15"
   },
-  "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\app-routing.module.ts": {
-    "path": "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\app-routing.module.ts",
+  "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\app-routing.module.ts": {
+    "path": "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\app-routing.module.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -4317,30 +4317,30 @@
       }
     },
     "s": {
-      "0": 9,
-      "1": 9,
-      "2": 9,
-      "3": 8,
-      "4": 8,
-      "5": 9,
-      "6": 9,
-      "7": 9,
-      "8": 9,
-      "9": 9,
-      "10": 9
+      "0": 18,
+      "1": 18,
+      "2": 18,
+      "3": 16,
+      "4": 16,
+      "5": 18,
+      "6": 18,
+      "7": 18,
+      "8": 18,
+      "9": 18,
+      "10": 18
     },
     "f": {
-      "0": 9,
-      "1": 9,
-      "2": 8,
-      "3": 8,
-      "4": 9,
-      "5": 9
+      "0": 18,
+      "1": 18,
+      "2": 16,
+      "3": 16,
+      "4": 18,
+      "5": 18
     },
     "b": {
       "0": [
-        9,
-        9
+        18,
+        18
       ]
     },
     "inputSourceMap": {
@@ -4367,17 +4367,17 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\app-routing.module.ts"
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\app-routing.module.ts"
       ],
       "sourcesContent": [
         "import { NgModule } from '@angular/core';\r\nimport { RouterModule, Routes } from '@angular/router';\r\nimport { MeComponent } from './components/me/me.component';\r\nimport { NotFoundComponent } from './components/not-found/not-found.component';\r\nimport { AuthGuard } from './guards/auth.guard';\r\nimport { UnauthGuard } from './guards/unauth.guard';\r\n\r\nconst routes: Routes = [\r\n  {\r\n    path: '',\r\n    canActivate: [UnauthGuard],\r\n    loadChildren: () => import('./features/auth/auth.module').then(m => m.AuthModule)\r\n  },\r\n  {\r\n    path: 'sessions',\r\n    canActivate: [AuthGuard],\r\n    loadChildren: () => import('./features/sessions/sessions.module').then(m => m.SessionsModule)\r\n  },\r\n  {\r\n    path: 'me',\r\n    canActivate: [AuthGuard],\r\n    component: MeComponent\r\n  },\r\n  { path: '404', component: NotFoundComponent },\r\n  { path: '**', redirectTo: '404' }\r\n];\r\n\r\n@NgModule({\r\n  imports: [RouterModule.forRoot(routes)],\r\n  exports: [RouterModule]\r\n})\r\nexport class AppRoutingModule {\r\n}\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "01fed7d06999b38232537651359666ef3e602610"
+    "hash": "81e5b8079dfb583930fc2c858d2d147e708e4b9f"
   },
-  "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\services\\auth.service.ts": {
-    "path": "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\services\\auth.service.ts",
+  "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\auth\\services\\auth.service.ts": {
+    "path": "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\auth\\services\\auth.service.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -4631,27 +4631,27 @@
       }
     },
     "s": {
-      "0": 9,
-      "1": 9,
-      "2": 9,
-      "3": 1,
-      "4": 8,
-      "5": 9,
-      "6": 9,
-      "7": 9,
-      "8": 9
+      "0": 18,
+      "1": 18,
+      "2": 18,
+      "3": 2,
+      "4": 16,
+      "5": 18,
+      "6": 18,
+      "7": 18,
+      "8": 18
     },
     "f": {
-      "0": 9,
-      "1": 9,
-      "2": 1,
-      "3": 8,
-      "4": 9
+      "0": 18,
+      "1": 18,
+      "2": 2,
+      "3": 16,
+      "4": 18
     },
     "b": {
       "0": [
-        9,
-        9
+        18,
+        18
       ]
     },
     "inputSourceMap": {
@@ -4673,17 +4673,17 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\services\\auth.service.ts"
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\auth\\services\\auth.service.ts"
       ],
       "sourcesContent": [
         "import { HttpClient } from '@angular/common/http';\r\nimport { Injectable } from '@angular/core';\r\nimport { Observable } from 'rxjs';\r\nimport { LoginRequest } from '../interfaces/loginRequest.interface';\r\nimport { RegisterRequest } from '../interfaces/registerRequest.interface';\r\nimport { SessionInformation } from 'src/app/interfaces/sessionInformation.interface';\r\n\r\n@Injectable({\r\n  providedIn: 'root'\r\n})\r\nexport class AuthService {\r\n\r\n  private pathService = 'api/auth';\r\n\r\n  constructor(private httpClient: HttpClient) { }\r\n\r\n  public register(registerRequest: RegisterRequest): Observable<void> {\r\n    return this.httpClient.post<void>(`${this.pathService}/register`, registerRequest);\r\n  }\r\n\r\n  public login(loginRequest: LoginRequest): Observable<SessionInformation> {\r\n    return this.httpClient.post<SessionInformation>(`${this.pathService}/login`, loginRequest);\r\n  }\r\n}\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "76d12b6a681ece97b3c78067459d53fddfdf6e03"
+    "hash": "59171174a07335ba803cc4d09eb87ca432531be8"
   },
-  "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\app.component.ts": {
-    "path": "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\app.component.ts",
+  "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\app.component.ts": {
+    "path": "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\app.component.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -5567,86 +5567,86 @@
       }
     },
     "s": {
-      "0": 255,
-      "1": 8,
-      "2": 8,
-      "3": 8,
-      "4": 8,
-      "5": 8,
-      "6": 8,
-      "7": 8,
-      "8": 8,
-      "9": 8,
-      "10": 1,
-      "11": 1,
-      "12": 1,
-      "13": 8,
-      "14": 8,
-      "15": 431,
-      "16": 10,
-      "17": 10,
-      "18": 10,
-      "19": 10,
-      "20": 10,
-      "21": 10,
-      "22": 9,
-      "23": 9,
-      "24": 9,
-      "25": 9,
-      "26": 668,
-      "27": 1,
-      "28": 1,
-      "29": 9,
-      "30": 9,
-      "31": 9,
-      "32": 677,
-      "33": 9,
-      "34": 9,
-      "35": 9,
-      "36": 9,
-      "37": 9,
-      "38": 9,
-      "39": 9,
-      "40": 9,
-      "41": 9,
-      "42": 9,
-      "43": 677,
-      "44": 668,
-      "45": 668,
-      "46": 668,
-      "47": 9
+      "0": 522,
+      "1": 16,
+      "2": 16,
+      "3": 16,
+      "4": 16,
+      "5": 16,
+      "6": 16,
+      "7": 16,
+      "8": 16,
+      "9": 16,
+      "10": 2,
+      "11": 2,
+      "12": 2,
+      "13": 16,
+      "14": 16,
+      "15": 862,
+      "16": 20,
+      "17": 20,
+      "18": 20,
+      "19": 20,
+      "20": 20,
+      "21": 20,
+      "22": 18,
+      "23": 18,
+      "24": 18,
+      "25": 18,
+      "26": 1348,
+      "27": 2,
+      "28": 2,
+      "29": 18,
+      "30": 18,
+      "31": 18,
+      "32": 1366,
+      "33": 18,
+      "34": 18,
+      "35": 18,
+      "36": 18,
+      "37": 18,
+      "38": 18,
+      "39": 18,
+      "40": 18,
+      "41": 18,
+      "42": 18,
+      "43": 1366,
+      "44": 1348,
+      "45": 1348,
+      "46": 1348,
+      "47": 18
     },
     "f": {
-      "0": 255,
-      "1": 1,
-      "2": 431,
-      "3": 9,
-      "4": 9,
-      "5": 668,
-      "6": 1,
-      "7": 9,
-      "8": 677
+      "0": 522,
+      "1": 2,
+      "2": 862,
+      "3": 18,
+      "4": 18,
+      "5": 1348,
+      "6": 2,
+      "7": 18,
+      "8": 1366
     },
     "b": {
       "0": [
-        8,
-        247
+        16,
+        506
       ],
       "1": [
-        10,
-        421
+        20,
+        842
       ],
       "2": [
-        9,
-        9
+        18,
+        18
       ],
       "3": [
-        9,
-        668
+        18,
+        1348
       ],
       "4": [
-        668,
-        9
+        1348,
+        18
       ]
     },
     "inputSourceMap": {
@@ -5672,8 +5672,8 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\app.component.html",
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\app.component.ts"
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\app.component.html",
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\app.component.ts"
       ],
       "sourcesContent": [
         "<div class=\"app\">\r\n  <mat-toolbar color=\"primary\" fxLayout=\"row\" fxLayoutAlign=\"space-between center\">\r\n    <span>Yoga app</span>\r\n    <div *ngIf=\"$isLogged() | async; else notLogged\">\r\n      <span routerLink=\"sessions\" class=\"link\">Sessions</span>\r\n      <span routerLink=\"me\" class=\"link\">Account</span>\r\n      <span (click)=\"logout()\" class=\"link\">Logout</span>\r\n    </div>\r\n    <ng-template #notLogged>\r\n      <div>\r\n        <span routerLink=\"login\" class=\"link\">Login</span>\r\n        <span routerLink=\"register\" class=\"link\">Register</span>\r\n      </div>\r\n    </ng-template>\r\n  </mat-toolbar>\r\n  <div>\r\n    <router-outlet></router-outlet>\r\n  </div>\r\n</div>\r\n",
@@ -5681,10 +5681,10 @@
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "8e93f898afe3da7e8857beae479ffe02eecdc92c"
+    "hash": "1e986028fd157f3a90a344d0df6f4c46ae7642b4"
   },
-  "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\interceptors\\jwt.interceptor.ts": {
-    "path": "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\interceptors\\jwt.interceptor.ts",
+  "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\interceptors\\jwt.interceptor.ts": {
+    "path": "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\interceptors\\jwt.interceptor.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -5950,30 +5950,30 @@
       }
     },
     "s": {
-      "0": 9,
-      "1": 9,
-      "2": 30,
-      "3": 21,
-      "4": 30,
-      "5": 9,
-      "6": 9,
-      "7": 9,
-      "8": 9
+      "0": 18,
+      "1": 18,
+      "2": 62,
+      "3": 44,
+      "4": 62,
+      "5": 18,
+      "6": 18,
+      "7": 18,
+      "8": 18
     },
     "f": {
-      "0": 9,
-      "1": 9,
-      "2": 30,
-      "3": 9
+      "0": 18,
+      "1": 18,
+      "2": 62,
+      "3": 18
     },
     "b": {
       "0": [
-        21,
-        9
+        44,
+        18
       ],
       "1": [
-        9,
-        9
+        18,
+        18
       ]
     },
     "inputSourceMap": {
@@ -6001,17 +6001,17 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\interceptors\\jwt.interceptor.ts"
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\interceptors\\jwt.interceptor.ts"
       ],
       "sourcesContent": [
         "import { HttpHandler, HttpInterceptor, HttpRequest } from \"@angular/common/http\";\r\nimport { Injectable } from \"@angular/core\";\r\nimport { SessionService } from '../services/session.service';\r\n\r\n@Injectable({ providedIn: 'root' })\r\nexport class JwtInterceptor implements HttpInterceptor {\r\n  constructor(private sessionService: SessionService) {}\r\n\r\n  public intercept(request: HttpRequest<any>, next: HttpHandler) {\r\n    if (this.sessionService.isLogged) {\r\n      request = request.clone({\r\n        setHeaders: {\r\n          Authorization: `Bearer ${this.sessionService.sessionInformation!.token}`,\r\n        },\r\n      });\r\n    }\r\n    return next.handle(request);\r\n  }\r\n}\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "17646d3f996fc9d261af37d4ab9051552a69c955"
+    "hash": "62a0601c4e4cc09e3daead29e62d3b887a1a568e"
   },
-  "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\components\\login\\login.component.ts": {
-    "path": "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\components\\login\\login.component.ts",
+  "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\auth\\components\\login\\login.component.ts": {
+    "path": "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\auth\\components\\login\\login.component.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -7049,70 +7049,70 @@
       "1": 0,
       "2": 0,
       "3": 0,
-      "4": 9,
-      "5": 9,
-      "6": 9,
-      "7": 9,
-      "8": 9,
-      "9": 9,
-      "10": 9,
-      "11": 9,
-      "12": 8,
-      "13": 8,
-      "14": 8,
-      "15": 8,
+      "4": 18,
+      "5": 18,
+      "6": 18,
+      "7": 18,
+      "8": 18,
+      "9": 18,
+      "10": 18,
+      "11": 18,
+      "12": 16,
+      "13": 16,
+      "14": 16,
+      "15": 16,
       "16": 0,
-      "17": 9,
-      "18": 9,
-      "19": 9,
-      "20": 371,
-      "21": 9,
-      "22": 9,
-      "23": 9,
-      "24": 9,
-      "25": 9,
-      "26": 8,
-      "27": 9,
-      "28": 9,
-      "29": 9,
-      "30": 9,
-      "31": 9,
-      "32": 9,
-      "33": 9,
+      "17": 18,
+      "18": 18,
+      "19": 18,
+      "20": 742,
+      "21": 18,
+      "22": 18,
+      "23": 18,
+      "24": 18,
+      "25": 18,
+      "26": 16,
+      "27": 18,
+      "28": 18,
+      "29": 18,
+      "30": 18,
+      "31": 18,
+      "32": 18,
+      "33": 18,
       "34": 0,
-      "35": 9,
-      "36": 9,
-      "37": 9,
-      "38": 9,
-      "39": 9,
-      "40": 9,
-      "41": 9,
-      "42": 9,
-      "43": 371,
-      "44": 362,
-      "45": 362,
-      "46": 362,
-      "47": 362,
-      "48": 362,
-      "49": 362,
-      "50": 362,
-      "51": 362,
-      "52": 362,
-      "53": 362,
-      "54": 362,
-      "55": 362,
-      "56": 9
+      "35": 18,
+      "36": 18,
+      "37": 18,
+      "38": 18,
+      "39": 18,
+      "40": 18,
+      "41": 18,
+      "42": 18,
+      "43": 742,
+      "44": 724,
+      "45": 724,
+      "46": 724,
+      "47": 724,
+      "48": 724,
+      "49": 724,
+      "50": 724,
+      "51": 724,
+      "52": 724,
+      "53": 724,
+      "54": 724,
+      "55": 724,
+      "56": 18
     },
     "f": {
       "0": 0,
-      "1": 9,
-      "2": 9,
-      "3": 8,
-      "4": 8,
+      "1": 18,
+      "2": 18,
+      "3": 16,
+      "4": 16,
       "5": 0,
-      "6": 9,
-      "7": 371,
-      "8": 8,
+      "6": 18,
+      "7": 742,
+      "8": 16,
       "9": 0
     },
     "b": {
@@ -7121,23 +7121,23 @@
         0
       ],
       "1": [
-        9,
-        9
+        18,
+        18
       ],
       "2": [
-        9,
-        362
+        18,
+        724
       ],
       "3": [
-        362,
-        9
+        724,
+        18
       ],
       "4": [
-        362,
+        724,
         0
       ],
       "5": [
-        362,
+        724,
         0
       ]
     },
@@ -7179,8 +7179,8 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\components\\login\\login.component.ts",
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\components\\login\\login.component.html"
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\auth\\components\\login\\login.component.ts",
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\auth\\components\\login\\login.component.html"
       ],
       "sourcesContent": [
         "import { Component } from '@angular/core';\r\nimport { FormBuilder, Validators } from '@angular/forms';\r\nimport { Router } from '@angular/router';\r\nimport { SessionInformation } from 'src/app/interfaces/sessionInformation.interface';\r\nimport { SessionService } from 'src/app/services/session.service';\r\nimport { LoginRequest } from '../../interfaces/loginRequest.interface';\r\nimport { AuthService } from '../../services/auth.service';\r\n\r\n@Component({\r\n  selector: 'app-login',\r\n  templateUrl: './login.component.html',\r\n  styleUrls: ['./login.component.scss']\r\n})\r\nexport class LoginComponent {\r\n  public hide = true;\r\n  public onError = false;\r\n\r\n  public form = this.fb.group({\r\n    email: [\r\n      '',\r\n      [\r\n        Validators.required,\r\n        Validators.email\r\n      ]\r\n    ],\r\n    password: [\r\n      '',\r\n      [\r\n        Validators.required,\r\n        Validators.minLength(3)\r\n      ]\r\n    ]\r\n  });\r\n\r\n  constructor(private authService: AuthService,\r\n              private fb: FormBuilder,\r\n              private router: Router,\r\n              private sessionService: SessionService) {\r\n  }\r\n\r\n  public submit(): void {\r\n    const loginRequest = this.form.value as LoginRequest;\r\n    this.authService.login(loginRequest).subscribe({\r\n      next: (response: SessionInformation) => {\r\n        this.sessionService.logIn(response);\r\n        this.router.navigate(['/sessions']);\r\n      },\r\n      error: error => this.onError = true,\r\n    });\r\n  }\r\n}\r\n",
@@ -7188,10 +7188,10 @@
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "a8b2000340227dc0c6302fbcb7d9d51afd7e65dc"
+    "hash": "452f3ff4d3c452b98d547972a0698b36314dd370"
   },
-  "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\components\\register\\register.component.ts": {
-    "path": "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\components\\register\\register.component.ts",
+  "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\auth\\components\\register\\register.component.ts": {
+    "path": "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\auth\\components\\register\\register.component.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -8053,62 +8053,62 @@
       "1": 0,
       "2": 0,
       "3": 0,
-      "4": 9,
-      "5": 1,
-      "6": 1,
-      "7": 1,
-      "8": 1,
-      "9": 1,
-      "10": 1,
-      "11": 1,
-      "12": 1,
+      "4": 18,
+      "5": 2,
+      "6": 2,
+      "7": 2,
+      "8": 2,
+      "9": 2,
+      "10": 2,
+      "11": 2,
+      "12": 2,
       "13": 0,
-      "14": 9,
-      "15": 1,
-      "16": 9,
-      "17": 64,
-      "18": 1,
-      "19": 1,
-      "20": 1,
-      "21": 1,
-      "22": 1,
-      "23": 1,
-      "24": 1,
-      "25": 1,
-      "26": 1,
-      "27": 1,
-      "28": 1,
-      "29": 1,
-      "30": 1,
-      "31": 1,
-      "32": 1,
-      "33": 1,
-      "34": 1,
-      "35": 1,
-      "36": 1,
-      "37": 1,
-      "38": 1,
-      "39": 1,
-      "40": 1,
-      "41": 64,
-      "42": 63,
-      "43": 63,
-      "44": 63,
-      "45": 63,
-      "46": 63,
-      "47": 63,
-      "48": 9
+      "14": 18,
+      "15": 2,
+      "16": 18,
+      "17": 128,
+      "18": 2,
+      "19": 2,
+      "20": 2,
+      "21": 2,
+      "22": 2,
+      "23": 2,
+      "24": 2,
+      "25": 2,
+      "26": 2,
+      "27": 2,
+      "28": 2,
+      "29": 2,
+      "30": 2,
+      "31": 2,
+      "32": 2,
+      "33": 2,
+      "34": 2,
+      "35": 2,
+      "36": 2,
+      "37": 2,
+      "38": 2,
+      "39": 2,
+      "40": 2,
+      "41": 128,
+      "42": 126,
+      "43": 126,
+      "44": 126,
+      "45": 126,
+      "46": 126,
+      "47": 126,
+      "48": 18
     },
     "f": {
       "0": 0,
-      "1": 9,
-      "2": 1,
-      "3": 1,
-      "4": 1,
+      "1": 18,
+      "2": 2,
+      "3": 2,
+      "4": 2,
       "5": 0,
-      "6": 1,
-      "7": 64,
-      "8": 1
+      "6": 2,
+      "7": 128,
+      "8": 2
     },
     "b": {
       "0": [
@@ -8116,16 +8116,16 @@
         0
       ],
       "1": [
-        1,
-        1
+        2,
+        2
       ],
       "2": [
-        1,
-        63
+        2,
+        126
       ],
       "3": [
-        63,
-        1
+        126,
+        2
       ]
     },
     "inputSourceMap": {
@@ -8167,8 +8167,8 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\components\\register\\register.component.ts",
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\components\\register\\register.component.html"
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\auth\\components\\register\\register.component.ts",
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\auth\\components\\register\\register.component.html"
       ],
       "sourcesContent": [
         "import { Component } from '@angular/core';\r\nimport { FormBuilder, Validators } from '@angular/forms';\r\nimport { Router } from '@angular/router';\r\nimport { AuthService } from '../../services/auth.service';\r\nimport { RegisterRequest } from '../../interfaces/registerRequest.interface';\r\n\r\n@Component({\r\n  selector: 'app-register',\r\n  templateUrl: './register.component.html',\r\n  styleUrls: ['./register.component.scss'],\r\n})\r\nexport class RegisterComponent {\r\n  public onError = false;\r\n\r\n  public form = this.fb.group({\r\n    email: ['', [Validators.required, Validators.email]],\r\n    firstName: [\r\n      '',\r\n      [Validators.required, Validators.minLength(3), Validators.maxLength(20)],\r\n    ],\r\n    lastName: [\r\n      '',\r\n      [Validators.required, Validators.minLength(3), Validators.maxLength(20)],\r\n    ],\r\n    password: [\r\n      '',\r\n      [Validators.required, Validators.minLength(3), Validators.maxLength(40)],\r\n    ],\r\n  });\r\n\r\n  constructor(\r\n    private authService: AuthService,\r\n    private fb: FormBuilder,\r\n    private router: Router\r\n  ) {}\r\n\r\n  public submit(): void {\r\n    const registerRequest = this.form.value as RegisterRequest;\r\n    this.authService.register(registerRequest).subscribe({\r\n      next: (_: void) => this.router.navigate(['/login']),\r\n      error: (_) => (this.onError = true),\r\n    });\r\n  }\r\n}\r\n",
@@ -8176,10 +8176,10 @@
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "bc5f3920e49abaaaaf5df723705b9a8059f6e106"
+    "hash": "4e66da7a16cc2a154540906f0331a4cb9c567d95"
   },
-  "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\auth-routing.module.ts": {
-    "path": "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\auth-routing.module.ts",
+  "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\auth\\auth-routing.module.ts": {
+    "path": "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\auth\\auth-routing.module.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -8341,22 +8341,22 @@
       }
     },
     "s": {
-      "0": 9,
-      "1": 9,
-      "2": 9,
-      "3": 18,
-      "4": 9,
-      "5": 9,
-      "6": 9
+      "0": 18,
+      "1": 18,
+      "2": 18,
+      "3": 36,
+      "4": 18,
+      "5": 18,
+      "6": 18
     },
     "f": {
-      "0": 9,
-      "1": 18
+      "0": 18,
+      "1": 36
     },
     "b": {
       "0": [
-        18,
-        18
+        36,
+        36
       ]
     },
     "inputSourceMap": {
@@ -8375,17 +8375,17 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\auth-routing.module.ts"
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\auth\\auth-routing.module.ts"
       ],
       "sourcesContent": [
         "import { NgModule } from '@angular/core';\r\nimport { RouterModule, Routes } from '@angular/router';\r\nimport { LoginComponent } from './components/login/login.component';\r\nimport { RegisterComponent } from './components/register/register.component';\r\n\r\n\r\nconst routes: Routes = [\r\n  { title: 'Login', path: 'login', component: LoginComponent },\r\n  { title: 'Register', path: 'register', component: RegisterComponent }\r\n];\r\n\r\n@NgModule({\r\n  imports: [RouterModule.forChild(routes)],\r\n  exports: [RouterModule]\r\n})\r\nexport class AuthRoutingModule { }\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "a234af4b505d1b413bf6829d36f505361d97eb93"
+    "hash": "26b8cbfe1a8d161d2ba196059d20afa50457f399"
   },
-  "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\auth.module.ts": {
-    "path": "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\auth.module.ts",
+  "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\auth\\auth.module.ts": {
+    "path": "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\auth\\auth.module.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -8547,22 +8547,22 @@
       }
     },
     "s": {
-      "0": 9,
-      "1": 9,
-      "2": 9,
-      "3": 18,
-      "4": 9,
-      "5": 9,
-      "6": 9
+      "0": 18,
+      "1": 18,
+      "2": 18,
+      "3": 36,
+      "4": 18,
+      "5": 18,
+      "6": 18
     },
     "f": {
-      "0": 9,
-      "1": 18
+      "0": 18,
+      "1": 36
     },
     "b": {
       "0": [
-        18,
-        18
+        36,
+        36
       ]
     },
     "inputSourceMap": {
@@ -8584,17 +8584,17 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\auth.module.ts"
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\auth\\auth.module.ts"
       ],
       "sourcesContent": [
         "import { NgModule } from '@angular/core';\r\nimport { CommonModule } from '@angular/common';\r\nimport { AuthRoutingModule } from './auth-routing.module';\r\nimport { RegisterComponent } from './components/register/register.component';\r\nimport { LoginComponent } from './components/login/login.component';\r\nimport { MatCardModule } from '@angular/material/card';\r\nimport { MatFormFieldModule } from '@angular/material/form-field';\r\nimport { MatButtonModule } from '@angular/material/button';\r\nimport { MatInputModule } from '@angular/material/input';\r\nimport { FlexLayoutModule } from '@angular/flex-layout';\r\nimport { FormsModule, ReactiveFormsModule } from '@angular/forms';\r\nimport { MatIconModule } from '@angular/material/icon';\r\n\r\nconst materialModules = [\r\n  MatButtonModule,\r\n  MatCardModule,\r\n  MatFormFieldModule,\r\n  MatIconModule,\r\n  MatInputModule\r\n]\r\n\r\n@NgModule({\r\n  declarations: [\r\n    RegisterComponent,\r\n    LoginComponent\r\n  ],\r\n  imports: [\r\n    AuthRoutingModule,\r\n    CommonModule,\r\n    FlexLayoutModule,\r\n    FormsModule,\r\n    ReactiveFormsModule,\r\n    ...materialModules\r\n  ]\r\n})\r\nexport class AuthModule { }\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "6be1cdb68b9737c1c7407132f4418bb27929c3ee"
+    "hash": "87cfbdca06265204e7dddc9a13b8f39ebcbd1fe7"
   },
-  "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\app.module.ts": {
-    "path": "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\app.module.ts",
+  "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\app.module.ts": {
+    "path": "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\app.module.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -8756,22 +8756,22 @@
       }
     },
     "s": {
-      "0": 9,
-      "1": 9,
-      "2": 9,
-      "3": 9,
-      "4": 9,
-      "5": 9,
-      "6": 9
+      "0": 18,
+      "1": 18,
+      "2": 18,
+      "3": 18,
+      "4": 18,
+      "5": 18,
+      "6": 18
     },
     "f": {
-      "0": 9,
-      "1": 9
+      "0": 18,
+      "1": 18
     },
     "b": {
       "0": [
-        9,
-        9
+        18,
+        18
       ]
     },
     "inputSourceMap": {
@@ -8802,17 +8802,17 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\app.module.ts"
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\app.module.ts"
       ],
       "sourcesContent": [
         "import { NgModule } from '@angular/core';\r\nimport { MatSnackBarModule } from '@angular/material/snack-bar';\r\nimport { BrowserModule } from '@angular/platform-browser';\r\n\r\nimport { AppRoutingModule } from './app-routing.module';\r\nimport { AppComponent } from './app.component';\r\nimport { BrowserAnimationsModule } from '@angular/platform-browser/animations';\r\nimport { NotFoundComponent } from './components/not-found/not-found.component';\r\nimport { MatButtonModule } from '@angular/material/button';\r\nimport { MatIconModule } from '@angular/material/icon';\r\nimport { MatToolbarModule } from '@angular/material/toolbar';\r\nimport { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';\r\nimport { JwtInterceptor } from './interceptors/jwt.interceptor';\r\nimport { MatCardModule } from '@angular/material/card';\r\nimport { FlexLayoutModule } from '@angular/flex-layout';\r\nimport { MeComponent } from './components/me/me.component';\r\nimport { AuthModule } from './features/auth/auth.module';\r\n\r\nconst materialModule = [\r\n  MatButtonModule,\r\n  MatCardModule,\r\n  MatIconModule,\r\n  MatSnackBarModule,\r\n  MatToolbarModule,\r\n]\r\n\r\n@NgModule({\r\n  declarations: [\r\n    AppComponent,\r\n    NotFoundComponent,\r\n    MeComponent,\r\n  ],\r\n  imports: [\r\n    BrowserModule,\r\n    AppRoutingModule,\r\n    BrowserAnimationsModule, \r\n    FlexLayoutModule,\r\n    HttpClientModule,\r\n    ...materialModule,\r\n    AuthModule\r\n  ],\r\n  providers: [\r\n    { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },\r\n  ],\r\n  bootstrap: [AppComponent]\r\n})\r\nexport class AppModule { }\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "58a8b276deb99f9229161e5a9482a2819f4e5739"
+    "hash": "efd19c796769491723aef65d9873acf8128b924c"
   },
-  "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\environments\\environment.ts": {
-    "path": "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\environments\\environment.ts",
+  "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\environments\\environment.ts": {
+    "path": "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\environments\\environment.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -8828,7 +8828,7 @@
     "fnMap": {},
     "branchMap": {},
     "s": {
-      "0": 9
+      "0": 18
     },
     "f": {},
     "b": {},
@@ -8842,17 +8842,17 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\environments\\environment.ts"
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\environments\\environment.ts"
       ],
       "sourcesContent": [
         "export const environment = {\r\n  baseUrl: 'localhost:8080/api/',\r\n  production: false\r\n};\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "09aef8305dc9b366b789b39465279450d2f1e0cc"
+    "hash": "5e04b1a207b0d3b9c09f843c36ffb487de1829bc"
   },
-  "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\main.ts": {
-    "path": "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\main.ts",
+  "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\main.ts": {
+    "path": "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\main.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -8960,9 +8960,9 @@
       }
     },
     "s": {
-      "0": 9,
+      "0": 18,
       "1": 0,
-      "2": 9,
+      "2": 18,
       "3": 0
     },
     "f": {
@@ -8971,7 +8971,7 @@
     "b": {
       "0": [
         0,
-        9
+        18
       ]
     },
     "inputSourceMap": {
@@ -8991,17 +8991,17 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\main.ts"
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\main.ts"
       ],
       "sourcesContent": [
         "import { enableProdMode } from '@angular/core';\r\nimport { platformBrowserDynamic } from '@angular/platform-browser-dynamic';\r\n\r\nimport { AppModule } from './app/app.module';\r\nimport { environment } from './environments/environment';\r\n\r\nif (environment.production) {\r\n  enableProdMode();\r\n}\r\n\r\nplatformBrowserDynamic().bootstrapModule(AppModule)\r\n  .catch(err => console.error(err));\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "8ac8c7b3cbdcb020b5bab2f8b85a0f863d8b6a15"
+    "hash": "a1e889fed868d49936d8a88a2d00e606debef274"
   },
-  "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\services\\session-api.service.ts": {
-    "path": "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\services\\session-api.service.ts",
+  "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\sessions\\services\\session-api.service.ts": {
+    "path": "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\sessions\\services\\session-api.service.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -9425,37 +9425,37 @@
       }
     },
     "s": {
-      "0": 8,
-      "1": 7,
-      "2": 7,
-      "3": 10,
-      "4": 3,
-      "5": 1,
-      "6": 1,
-      "7": 1,
+      "0": 16,
+      "1": 16,
+      "2": 16,
+      "3": 22,
+      "4": 6,
+      "5": 2,
+      "6": 2,
+      "7": 2,
       "8": 0,
       "9": 0,
-      "10": 8,
-      "11": 7,
-      "12": 8,
-      "13": 8
+      "10": 16,
+      "11": 16,
+      "12": 16,
+      "13": 16
     },
     "f": {
-      "0": 8,
-      "1": 7,
-      "2": 10,
-      "3": 3,
-      "4": 1,
-      "5": 1,
-      "6": 1,
+      "0": 16,
+      "1": 16,
+      "2": 22,
+      "3": 6,
+      "4": 2,
+      "5": 2,
+      "6": 2,
       "7": 0,
       "8": 0,
-      "9": 7
+      "9": 16
     },
     "b": {
       "0": [
-        7,
-        7
+        16,
+        16
       ]
     },
     "inputSourceMap": {
@@ -9485,17 +9485,17 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\services\\session-api.service.ts"
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\sessions\\services\\session-api.service.ts"
       ],
       "sourcesContent": [
         "import { HttpClient } from '@angular/common/http';\r\nimport { Injectable } from '@angular/core';\r\nimport { Observable } from 'rxjs';\r\nimport { Session } from '../interfaces/session.interface';\r\n\r\n@Injectable({\r\n  providedIn: 'root'\r\n})\r\nexport class SessionApiService {\r\n\r\n  private pathService = 'api/session';\r\n\r\n  constructor(private httpClient: HttpClient) {\r\n  }\r\n\r\n  public all(): Observable<Session[]> {\r\n    return this.httpClient.get<Session[]>(this.pathService);\r\n  }\r\n\r\n  public detail(id: string): Observable<Session> {\r\n    return this.httpClient.get<Session>(`${this.pathService}/${id}`);\r\n  }\r\n\r\n  public delete(id: string): Observable<any> {\r\n    return this.httpClient.delete(`${this.pathService}/${id}`);\r\n  }\r\n\r\n  public create(session: Session): Observable<Session> {\r\n    return this.httpClient.post<Session>(this.pathService, session);\r\n  }\r\n\r\n  public update(id: string, session: Session): Observable<Session> {\r\n    return this.httpClient.put<Session>(`${this.pathService}/${id}`, session);\r\n  }\r\n\r\n  public participate(id: string, userId: string): Observable<void> {\r\n    return this.httpClient.post<void>(`${this.pathService}/${id}/participate/${userId}`, null);\r\n  }\r\n\r\n  public unParticipate(id: string, userId: string): Observable<void> {\r\n    return this.httpClient.delete<void>(`${this.pathService}/${id}/participate/${userId}`);\r\n  }\r\n\r\n}\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "b1909460d278cd16409fcb8a41a6d1cd584e8220"
+    "hash": "4b965cfe5998d0b14a5de4aefacd49d91804e7ac"
   },
-  "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\services\\teacher.service.ts": {
-    "path": "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\services\\teacher.service.ts",
+  "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\services\\teacher.service.ts": {
+    "path": "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\services\\teacher.service.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -9749,27 +9749,27 @@
       }
     },
     "s": {
-      "0": 8,
-      "1": 4,
-      "2": 4,
-      "3": 2,
-      "4": 2,
-      "5": 8,
-      "6": 4,
-      "7": 8,
-      "8": 8
+      "0": 16,
+      "1": 8,
+      "2": 8,
+      "3": 4,
+      "4": 4,
+      "5": 16,
+      "6": 8,
+      "7": 16,
+      "8": 16
     },
     "f": {
-      "0": 8,
-      "1": 4,
-      "2": 2,
-      "3": 2,
-      "4": 4
+      "0": 16,
+      "1": 8,
+      "2": 4,
+      "3": 4,
+      "4": 8
     },
     "b": {
       "0": [
-        4,
-        4
+        8,
+        8
       ]
     },
     "inputSourceMap": {
@@ -9790,17 +9790,17 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\services\\teacher.service.ts"
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\services\\teacher.service.ts"
       ],
       "sourcesContent": [
         "import { HttpClient } from '@angular/common/http';\r\nimport { Injectable } from '@angular/core';\r\nimport { Observable } from 'rxjs';\r\nimport { Teacher } from '../interfaces/teacher.interface';\r\n\r\n@Injectable({\r\n  providedIn: 'root'\r\n})\r\nexport class TeacherService {\r\n\r\n  private pathService = 'api/teacher';\r\n\r\n  constructor(private httpClient: HttpClient) { }\r\n\r\n  public all(): Observable<Teacher[]> {\r\n    return this.httpClient.get<Teacher[]>(this.pathService);\r\n  }\r\n\r\n  public detail(id: string): Observable<Teacher> {\r\n    return this.httpClient.get<Teacher>(`${this.pathService}/${id}`);\r\n  }\r\n}\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "fb3aab2c410d77a2ca220cd22203500ad3d779c5"
+    "hash": "f60b867f8e0c3dbf219752975c4cdc8d74214be9"
   },
-  "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\detail\\detail.component.ts": {
-    "path": "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\detail\\detail.component.ts",
+  "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\sessions\\components\\detail\\detail.component.ts": {
+    "path": "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\sessions\\components\\detail\\detail.component.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -12604,19 +12604,19 @@
       }
     },
     "s": {
-      "0": 23,
-      "1": 2,
-      "2": 2,
-      "3": 2,
-      "4": 1,
-      "5": 1,
-      "6": 1,
-      "7": 2,
-      "8": 2,
-      "9": 2,
-      "10": 2,
-      "11": 2,
-      "12": 2,
+      "0": 46,
+      "1": 4,
+      "2": 4,
+      "3": 4,
+      "4": 2,
+      "5": 2,
+      "6": 2,
+      "7": 4,
+      "8": 4,
+      "9": 4,
+      "10": 4,
+      "11": 4,
+      "12": 4,
       "13": 0,
       "14": 0,
       "15": 0,
@@ -12654,163 +12654,163 @@
       "47": 0,
       "48": 0,
       "49": 0,
-      "50": 11,
-      "51": 2,
-      "52": 2,
-      "53": 2,
-      "54": 2,
-      "55": 2,
-      "56": 2,
-      "57": 2,
-      "58": 11,
-      "59": 9,
-      "60": 9,
-      "61": 9,
-      "62": 23,
-      "63": 2,
-      "64": 2,
-      "65": 2,
+      "50": 22,
+      "51": 4,
+      "52": 4,
+      "53": 4,
+      "54": 4,
+      "55": 4,
+      "56": 4,
+      "57": 4,
+      "58": 22,
+      "59": 18,
+      "60": 18,
+      "61": 18,
+      "62": 46,
+      "63": 4,
+      "64": 4,
+      "65": 4,
       "66": 0,
       "67": 0,
       "68": 0,
-      "69": 2,
-      "70": 2,
-      "71": 2,
-      "72": 2,
-      "73": 2,
-      "74": 2,
-      "75": 2,
-      "76": 2,
-      "77": 2,
-      "78": 2,
-      "79": 2,
-      "80": 2,
-      "81": 2,
-      "82": 2,
-      "83": 2,
-      "84": 2,
-      "85": 2,
-      "86": 2,
-      "87": 2,
-      "88": 2,
-      "89": 2,
-      "90": 2,
-      "91": 2,
-      "92": 2,
-      "93": 2,
-      "94": 2,
-      "95": 2,
-      "96": 2,
-      "97": 2,
-      "98": 2,
-      "99": 2,
-      "100": 2,
-      "101": 2,
-      "102": 2,
-      "103": 2,
-      "104": 2,
-      "105": 2,
-      "106": 2,
-      "107": 2,
-      "108": 2,
-      "109": 2,
-      "110": 2,
-      "111": 2,
-      "112": 2,
-      "113": 2,
-      "114": 2,
-      "115": 23,
-      "116": 21,
-      "117": 21,
-      "118": 21,
-      "119": 21,
-      "120": 21,
-      "121": 21,
-      "122": 21,
-      "123": 21,
-      "124": 21,
-      "125": 21,
-      "126": 21,
-      "127": 21,
-      "128": 21,
-      "129": 21,
-      "130": 21,
-      "131": 21,
-      "132": 21,
-      "133": 21,
-      "134": 21,
-      "135": 8,
-      "136": 2,
-      "137": 2,
-      "138": 2,
-      "139": 2,
-      "140": 2,
-      "141": 2,
-      "142": 2,
-      "143": 2,
-      "144": 2,
-      "145": 2,
-      "146": 2,
-      "147": 2,
-      "148": 2,
+      "69": 4,
+      "70": 4,
+      "71": 4,
+      "72": 4,
+      "73": 4,
+      "74": 4,
+      "75": 4,
+      "76": 4,
+      "77": 4,
+      "78": 4,
+      "79": 4,
+      "80": 4,
+      "81": 4,
+      "82": 4,
+      "83": 4,
+      "84": 4,
+      "85": 4,
+      "86": 4,
+      "87": 4,
+      "88": 4,
+      "89": 4,
+      "90": 4,
+      "91": 4,
+      "92": 4,
+      "93": 4,
+      "94": 4,
+      "95": 4,
+      "96": 4,
+      "97": 4,
+      "98": 4,
+      "99": 4,
+      "100": 4,
+      "101": 4,
+      "102": 4,
+      "103": 4,
+      "104": 4,
+      "105": 4,
+      "106": 4,
+      "107": 4,
+      "108": 4,
+      "109": 4,
+      "110": 4,
+      "111": 4,
+      "112": 4,
+      "113": 4,
+      "114": 4,
+      "115": 46,
+      "116": 42,
+      "117": 42,
+      "118": 42,
+      "119": 42,
+      "120": 42,
+      "121": 42,
+      "122": 42,
+      "123": 42,
+      "124": 42,
+      "125": 42,
+      "126": 42,
+      "127": 42,
+      "128": 42,
+      "129": 42,
+      "130": 42,
+      "131": 42,
+      "132": 42,
+      "133": 42,
+      "134": 42,
+      "135": 16,
+      "136": 4,
+      "137": 4,
+      "138": 4,
+      "139": 4,
+      "140": 4,
+      "141": 4,
+      "142": 4,
+      "143": 4,
+      "144": 4,
+      "145": 4,
+      "146": 4,
+      "147": 4,
+      "148": 4,
       "149": 0,
-      "150": 1,
-      "151": 1,
-      "152": 1,
+      "150": 2,
+      "151": 2,
+      "152": 2,
       "153": 0,
       "154": 0,
       "155": 0,
       "156": 0,
-      "157": 2,
-      "158": 2,
-      "159": 2,
-      "160": 1,
-      "161": 2,
-      "162": 2,
-      "163": 8,
-      "164": 2,
-      "165": 8,
-      "166": 33,
-      "167": 2,
-      "168": 2,
-      "169": 2,
-      "170": 33,
-      "171": 31,
-      "172": 31,
-      "173": 8
+      "157": 4,
+      "158": 4,
+      "159": 4,
+      "160": 2,
+      "161": 4,
+      "162": 4,
+      "163": 16,
+      "164": 4,
+      "165": 16,
+      "166": 66,
+      "167": 4,
+      "168": 4,
+      "169": 4,
+      "170": 66,
+      "171": 62,
+      "172": 62,
+      "173": 16
     },
     "f": {
-      "0": 23,
-      "1": 1,
+      "0": 46,
+      "1": 2,
       "2": 0,
       "3": 0,
       "4": 0,
       "5": 0,
       "6": 0,
-      "7": 11,
-      "8": 23,
+      "7": 22,
+      "8": 46,
       "9": 0,
-      "10": 8,
-      "11": 2,
-      "12": 2,
+      "10": 16,
+      "11": 4,
+      "12": 4,
       "13": 0,
-      "14": 1,
-      "15": 1,
+      "14": 2,
+      "15": 2,
       "16": 0,
       "17": 0,
       "18": 0,
       "19": 0,
-      "20": 2,
-      "21": 2,
-      "22": 1,
-      "23": 2,
-      "24": 2,
-      "25": 33
+      "20": 4,
+      "21": 4,
+      "22": 2,
+      "23": 4,
+      "24": 4,
+      "25": 66
     },
     "b": {
       "0": [
-        2,
-        21
+        4,
+        42
       ],
       "1": [
         0,
@@ -12829,32 +12829,32 @@
         0
       ],
       "5": [
-        2,
-        9
+        4,
+        18
       ],
       "6": [
-        9,
-        2
+        18,
+        4
       ],
       "7": [
-        2,
-        21
+        4,
+        42
       ],
       "8": [
-        21,
-        2
+        42,
+        4
       ],
       "9": [
-        2,
-        2
+        4,
+        4
       ],
       "10": [
-        2,
-        31
+        4,
+        62
       ],
       "11": [
-        31,
-        2
+        62,
+        4
       ]
     },
     "inputSourceMap": {
@@ -12910,8 +12910,8 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\detail\\detail.component.html",
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\detail\\detail.component.ts"
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\sessions\\components\\detail\\detail.component.html",
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\sessions\\components\\detail\\detail.component.ts"
       ],
       "sourcesContent": [
         "<div class=\"m3\">\r\n  <mat-card *ngIf=\"session\">\r\n    <mat-card-title>\r\n      <div fxLayout=\"row\" fxLayoutAlign=\"space-between center\">\r\n        <div fxLayout=\"row\" fxLayoutAlign=\"start center\">\r\n          <button mat-icon-button (click)=\"back()\">\r\n            <mat-icon>arrow_back</mat-icon>\r\n          </button>\r\n          <h1>{{session.name | titlecase}}</h1>\r\n        </div>\r\n        <div>\r\n          <button *ngIf=\"isAdmin\" mat-raised-button color=\"warn\" (click)=\"delete()\">\r\n            <mat-icon>delete</mat-icon>\r\n            <span class=\"ml1\">Delete</span>\r\n          </button>\r\n          <div *ngIf=\"!isAdmin\">\r\n            <button *ngIf=\"!isParticipate\" mat-raised-button color=\"primary\" (click)=\"participate()\">\r\n              <mat-icon>person_add</mat-icon>\r\n              <span class=\"ml1\">Participate</span>\r\n            </button>\r\n            <button *ngIf=\"isParticipate\" mat-raised-button color=\"warn\" (click)=\"unParticipate()\">\r\n              <mat-icon>person_remove</mat-icon>\r\n              <span class=\"ml1\">Do not participate</span>\r\n            </button>\r\n\r\n          </div>\r\n\r\n\r\n        </div>\r\n      </div>\r\n    </mat-card-title>\r\n    <mat-card-subtitle *ngIf=\"teacher\">\r\n      <div fxLayoutAlign=\"start center\" class=\"ml3\">\r\n        <mat-icon>\r\n          people\r\n        </mat-icon>\r\n        <span class=\"ml1\">{{ teacher.firstName }} {{ teacher.lastName | uppercase }}</span>\r\n      </div>\r\n    </mat-card-subtitle>\r\n    <div mat-card-image fxLayoutAlign=\"center center\">\r\n      <img class=\"picture\" src=\"assets/sessions.png\" alt=\"Yoga session\">\r\n    </div>\r\n    <mat-card-content>\r\n      <div class=\"my2\" fxLayout=\"row\" fxLayoutAlign=\"space-between center\">\r\n        <div fxLayoutAlign=\"start center\">\r\n          <mat-icon>\r\n            group\r\n          </mat-icon>\r\n          <span class=\"ml1\">{{ session.users.length }} attendees</span>\r\n        </div>\r\n        <div fxLayoutAlign=\"start center\">\r\n          <mat-icon>\r\n            calendar_month\r\n          </mat-icon>\r\n          <span class=\"ml1\">{{ session.date | date: 'longDate'}}</span>\r\n        </div>\r\n      </div>\r\n      <div class=\"description\">\r\n        <p>Description:</p>\r\n        {{ session.description }}\r\n        <br>\r\n      </div>\r\n      <div class=\"date\" class=\"my2\" fxLayout=\"row\" fxLayoutAlign=\"space-between center\">\r\n        <div class=\"created\"><i>Create at: </i> {{ session.createdAt| date: 'longDate'}}</div>\r\n        <div class=\"updated\"><i>Last update: </i> {{ session.updatedAt| date: 'longDate'}}</div>\r\n      </div>\r\n    </mat-card-content>\r\n  </mat-card>\r\n</div>\r\n",
@@ -12919,10 +12919,10 @@
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "79e77ea9fac45fec719bc70e94de3bef066ef03a"
+    "hash": "2c5f34c2ad1f69a2b0d70a566c73f89033c1522a"
   },
-  "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\form\\form.component.ts": {
-    "path": "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\form\\form.component.ts",
+  "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\sessions\\components\\form\\form.component.ts": {
+    "path": "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\sessions\\components\\form\\form.component.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -14940,194 +14940,194 @@
       }
     },
     "s": {
-      "0": 69,
-      "1": 1,
-      "2": 1,
-      "3": 1,
-      "4": 44,
-      "5": 1,
-      "6": 1,
-      "7": 1,
-      "8": 190,
-      "9": 4,
-      "10": 4,
-      "11": 4,
-      "12": 190,
-      "13": 186,
-      "14": 186,
-      "15": 186,
-      "16": 186,
-      "17": 108,
-      "18": 2,
-      "19": 2,
-      "20": 2,
-      "21": 2,
-      "22": 2,
-      "23": 2,
-      "24": 2,
-      "25": 2,
-      "26": 2,
-      "27": 2,
-      "28": 2,
-      "29": 2,
-      "30": 2,
-      "31": 2,
-      "32": 2,
-      "33": 2,
-      "34": 2,
-      "35": 2,
-      "36": 2,
-      "37": 2,
-      "38": 2,
-      "39": 2,
-      "40": 2,
-      "41": 2,
-      "42": 2,
-      "43": 2,
-      "44": 2,
-      "45": 2,
-      "46": 2,
-      "47": 2,
-      "48": 2,
-      "49": 108,
-      "50": 106,
-      "51": 106,
-      "52": 106,
-      "53": 106,
-      "54": 106,
-      "55": 106,
-      "56": 106,
-      "57": 8,
-      "58": 2,
-      "59": 2,
-      "60": 2,
-      "61": 2,
-      "62": 2,
-      "63": 2,
-      "64": 2,
-      "65": 2,
-      "66": 2,
-      "67": 2,
-      "68": 0,
-      "69": 2,
-      "70": 2,
-      "71": 1,
-      "72": 1,
-      "73": 1,
-      "74": 1,
-      "75": 1,
-      "76": 2,
-      "77": 2,
-      "78": 1,
-      "79": 1,
-      "80": 1,
-      "81": 1,
-      "82": 2,
-      "83": 2,
-      "84": 2,
-      "85": 8,
-      "86": 2,
-      "87": 8,
-      "88": 113,
-      "89": 2,
-      "90": 2,
-      "91": 2,
-      "92": 2,
-      "93": 2,
-      "94": 2,
-      "95": 2,
-      "96": 2,
-      "97": 113,
-      "98": 111,
-      "99": 111,
-      "100": 111,
-      "101": 111,
-      "102": 111,
-      "103": 111,
-      "104": 8
-    },
-    "f": {
-      "0": 69,
-      "1": 44,
-      "2": 190,
-      "3": 108,
-      "4": 2,
-      "5": 8,
+      "0": 138,
+      "1": 2,
+      "2": 2,
+      "3": 2,
+      "4": 88,
+      "5": 2,
       "6": 2,
       "7": 2,
-      "8": 1,
-      "9": 2,
-      "10": 1,
-      "11": 1,
-      "12": 2,
-      "13": 2,
-      "14": 2,
-      "15": 113
+      "8": 380,
+      "9": 8,
+      "10": 8,
+      "11": 8,
+      "12": 380,
+      "13": 372,
+      "14": 372,
+      "15": 372,
+      "16": 372,
+      "17": 216,
+      "18": 4,
+      "19": 4,
+      "20": 4,
+      "21": 4,
+      "22": 4,
+      "23": 4,
+      "24": 4,
+      "25": 4,
+      "26": 4,
+      "27": 4,
+      "28": 4,
+      "29": 4,
+      "30": 4,
+      "31": 4,
+      "32": 4,
+      "33": 4,
+      "34": 4,
+      "35": 4,
+      "36": 4,
+      "37": 4,
+      "38": 4,
+      "39": 4,
+      "40": 4,
+      "41": 4,
+      "42": 4,
+      "43": 4,
+      "44": 4,
+      "45": 4,
+      "46": 4,
+      "47": 4,
+      "48": 4,
+      "49": 216,
+      "50": 212,
+      "51": 212,
+      "52": 212,
+      "53": 212,
+      "54": 212,
+      "55": 212,
+      "56": 212,
+      "57": 16,
+      "58": 4,
+      "59": 4,
+      "60": 4,
+      "61": 4,
+      "62": 4,
+      "63": 4,
+      "64": 4,
+      "65": 4,
+      "66": 4,
+      "67": 4,
+      "68": 0,
+      "69": 4,
+      "70": 4,
+      "71": 2,
+      "72": 2,
+      "73": 2,
+      "74": 2,
+      "75": 2,
+      "76": 4,
+      "77": 4,
+      "78": 2,
+      "79": 2,
+      "80": 2,
+      "81": 2,
+      "82": 4,
+      "83": 4,
+      "84": 4,
+      "85": 16,
+      "86": 4,
+      "87": 16,
+      "88": 226,
+      "89": 4,
+      "90": 4,
+      "91": 4,
+      "92": 4,
+      "93": 4,
+      "94": 4,
+      "95": 4,
+      "96": 4,
+      "97": 226,
+      "98": 222,
+      "99": 222,
+      "100": 222,
+      "101": 222,
+      "102": 222,
+      "103": 222,
+      "104": 16
+    },
+    "f": {
+      "0": 138,
+      "1": 88,
+      "2": 380,
+      "3": 216,
+      "4": 4,
+      "5": 16,
+      "6": 4,
+      "7": 4,
+      "8": 2,
+      "9": 4,
+      "10": 2,
+      "11": 2,
+      "12": 4,
+      "13": 4,
+      "14": 4,
+      "15": 226
     },
     "b": {
       "0": [
-        1,
-        68
+        2,
+        136
       ],
       "1": [
-        1,
-        43
+        2,
+        86
       ],
       "2": [
-        4,
-        186
+        8,
+        372
       ],
       "3": [
-        186,
-        4
+        372,
+        8
       ],
       "4": [
-        2,
-        106
+        4,
+        212
       ],
       "5": [
-        106,
-        2
+        212,
+        4
       ],
       "6": [
         0,
-        2
+        4
       ],
       "7": [
-        1,
-        1
+        2,
+        2
       ],
       "8": [
-        1,
-        1
+        2,
+        2
       ],
       "9": [
-        1,
-        1
+        2,
+        2
       ],
       "10": [
-        1,
-        1
+        2,
+        2
       ],
       "11": [
-        1,
-        1
+        2,
+        2
       ],
       "12": [
-        1,
-        1
+        2,
+        2
       ],
       "13": [
-        2,
-        2
+        4,
+        4
       ],
       "14": [
-        2,
-        111
+        4,
+        222
       ],
       "15": [
-        111,
-        2
+        222,
+        4
       ]
     },
     "inputSourceMap": {
@@ -15189,8 +15189,8 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\form\\form.component.ts",
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\form\\form.component.html"
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\sessions\\components\\form\\form.component.ts",
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\sessions\\components\\form\\form.component.html"
       ],
       "sourcesContent": [
         "import { Component, OnInit } from '@angular/core';\r\nimport { FormBuilder, FormGroup, Validators } from '@angular/forms';\r\nimport { MatSnackBar } from '@angular/material/snack-bar';\r\nimport { ActivatedRoute, Router } from '@angular/router';\r\nimport { SessionService } from '../../../../services/session.service';\r\nimport { TeacherService } from '../../../../services/teacher.service';\r\nimport { Session } from '../../interfaces/session.interface';\r\nimport { SessionApiService } from '../../services/session-api.service';\r\n\r\n@Component({\r\n  selector: 'app-form',\r\n  templateUrl: './form.component.html',\r\n  styleUrls: ['./form.component.scss']\r\n})\r\nexport class FormComponent implements OnInit {\r\n\r\n  public onUpdate: boolean = false;\r\n  public sessionForm: FormGroup | undefined;\r\n  public teachers$ = this.teacherService.all();\r\n  private id: string | undefined;\r\n\r\n  constructor(\r\n    private route: ActivatedRoute,\r\n    private fb: FormBuilder,\r\n    private matSnackBar: MatSnackBar,\r\n    private sessionApiService: SessionApiService,\r\n    private sessionService: SessionService,\r\n    private teacherService: TeacherService,\r\n    private router: Router\r\n  ) {\r\n  }\r\n\r\n  public ngOnInit(): void {\r\n    if (!this.sessionService.sessionInformation!.admin) {\r\n      this.router.navigate(['/sessions']);\r\n    }\r\n    const url = this.router.url;\r\n    if (url.includes('update')) {\r\n      this.onUpdate = true;\r\n      this.id = this.route.snapshot.paramMap.get('id')!;\r\n      this.sessionApiService\r\n        .detail(this.id)\r\n        .subscribe((session: Session) => this.initForm(session));\r\n    } else {\r\n      this.initForm();\r\n    }\r\n  }\r\n\r\n  public submit(): void {\r\n    const session = this.sessionForm?.value as Session;\r\n\r\n    if (!this.onUpdate) {\r\n      this.sessionApiService\r\n        .create(session)\r\n        .subscribe((_: Session) => this.exitPage('Session created !'));\r\n    } else {\r\n      this.sessionApiService\r\n        .update(this.id!, session)\r\n        .subscribe((_: Session) => this.exitPage('Session updated !'));\r\n    }\r\n  }\r\n\r\n  private initForm(session?: Session): void {\r\n    this.sessionForm = this.fb.group({\r\n      name: [\r\n        session ? session.name : '',\r\n        [Validators.required]\r\n      ],\r\n      date: [\r\n        session ? new Date(session.date).toISOString().split('T')[0] : '',\r\n        [Validators.required]\r\n      ],\r\n      teacher_id: [\r\n        session ? session.teacher_id : '',\r\n        [Validators.required]\r\n      ],\r\n      description: [\r\n        session ? session.description : '',\r\n        [\r\n          Validators.required,\r\n          Validators.max(2000)\r\n        ]\r\n      ],\r\n    });\r\n  }\r\n\r\n  private exitPage(message: string): void {\r\n    this.matSnackBar.open(message, 'Close', { duration: 3000 });\r\n    this.router.navigate(['sessions']);\r\n  }\r\n}\r\n",
@@ -15198,10 +15198,10 @@
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "5cef43ea5b403bb5d6dbc25dec43eebf2a98b39f"
+    "hash": "58d0e9a2793329093c86af08e9d3661931b24037"
   },
-  "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\list\\list.component.ts": {
-    "path": "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\list\\list.component.ts",
+  "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\sessions\\components\\list\\list.component.ts": {
+    "path": "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\sessions\\components\\list\\list.component.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -16537,131 +16537,131 @@
       }
     },
     "s": {
-      "0": 81,
-      "1": 9,
-      "2": 9,
-      "3": 9,
-      "4": 9,
-      "5": 9,
-      "6": 9,
-      "7": 8,
-      "8": 11,
-      "9": 33,
-      "10": 11,
-      "11": 11,
-      "12": 11,
-      "13": 11,
-      "14": 11,
-      "15": 11,
-      "16": 33,
-      "17": 22,
-      "18": 22,
-      "19": 8,
-      "20": 13,
-      "21": 39,
-      "22": 13,
-      "23": 13,
-      "24": 13,
-      "25": 13,
-      "26": 13,
-      "27": 13,
-      "28": 13,
-      "29": 13,
-      "30": 13,
-      "31": 13,
-      "32": 13,
-      "33": 13,
-      "34": 13,
-      "35": 13,
-      "36": 13,
-      "37": 13,
-      "38": 13,
-      "39": 13,
-      "40": 13,
-      "41": 13,
-      "42": 13,
-      "43": 39,
-      "44": 26,
-      "45": 26,
-      "46": 26,
-      "47": 26,
-      "48": 26,
-      "49": 26,
-      "50": 26,
-      "51": 26,
-      "52": 26,
-      "53": 26,
-      "54": 26,
-      "55": 26,
-      "56": 8,
-      "57": 10,
-      "58": 10,
-      "59": 10,
-      "60": 106,
-      "61": 8,
-      "62": 10,
-      "63": 8,
-      "64": 90,
-      "65": 10,
-      "66": 10,
-      "67": 10,
-      "68": 10,
-      "69": 10,
-      "70": 10,
-      "71": 10,
-      "72": 10,
-      "73": 10,
-      "74": 90,
-      "75": 80,
-      "76": 80,
-      "77": 80,
-      "78": 80,
-      "79": 8
+      "0": 180,
+      "1": 20,
+      "2": 20,
+      "3": 20,
+      "4": 20,
+      "5": 20,
+      "6": 20,
+      "7": 16,
+      "8": 24,
+      "9": 72,
+      "10": 24,
+      "11": 24,
+      "12": 24,
+      "13": 24,
+      "14": 24,
+      "15": 24,
+      "16": 72,
+      "17": 48,
+      "18": 48,
+      "19": 16,
+      "20": 28,
+      "21": 84,
+      "22": 28,
+      "23": 28,
+      "24": 28,
+      "25": 28,
+      "26": 28,
+      "27": 28,
+      "28": 28,
+      "29": 28,
+      "30": 28,
+      "31": 28,
+      "32": 28,
+      "33": 28,
+      "34": 28,
+      "35": 28,
+      "36": 28,
+      "37": 28,
+      "38": 28,
+      "39": 28,
+      "40": 28,
+      "41": 28,
+      "42": 28,
+      "43": 84,
+      "44": 56,
+      "45": 56,
+      "46": 56,
+      "47": 56,
+      "48": 56,
+      "49": 56,
+      "50": 56,
+      "51": 56,
+      "52": 56,
+      "53": 56,
+      "54": 56,
+      "55": 56,
+      "56": 16,
+      "57": 22,
+      "58": 22,
+      "59": 22,
+      "60": 232,
+      "61": 16,
+      "62": 22,
+      "63": 16,
+      "64": 198,
+      "65": 22,
+      "66": 22,
+      "67": 22,
+      "68": 22,
+      "69": 22,
+      "70": 22,
+      "71": 22,
+      "72": 22,
+      "73": 22,
+      "74": 198,
+      "75": 176,
+      "76": 176,
+      "77": 176,
+      "78": 176,
+      "79": 16
     },
     "f": {
-      "0": 81,
-      "1": 11,
-      "2": 33,
-      "3": 13,
-      "4": 39,
-      "5": 8,
-      "6": 10,
-      "7": 106,
-      "8": 10,
-      "9": 90
+      "0": 180,
+      "1": 24,
+      "2": 72,
+      "3": 28,
+      "4": 84,
+      "5": 16,
+      "6": 22,
+      "7": 232,
+      "8": 22,
+      "9": 198
     },
     "b": {
       "0": [
-        9,
-        72
+        20,
+        160
       ],
       "1": [
-        11,
-        22
+        24,
+        48
       ],
       "2": [
-        22,
-        11
+        48,
+        24
       ],
       "3": [
-        13,
-        26
+        28,
+        56
       ],
       "4": [
-        26,
-        13
+        56,
+        28
       ],
       "5": [
-        10,
-        10
+        22,
+        22
       ],
       "6": [
-        10,
-        80
+        22,
+        176
       ],
       "7": [
-        80,
-        10
+        176,
+        22
       ]
     },
     "inputSourceMap": {
@@ -16684,8 +16684,8 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\list\\list.component.html",
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\list\\list.component.ts"
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\sessions\\components\\list\\list.component.html",
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\sessions\\components\\list\\list.component.ts"
       ],
       "sourcesContent": [
         "<div class=\"list\">\r\n  <mat-card>\r\n    <mat-card-header fxLayout=\"row\" fxLayoutAlign=\"space-between center\">\r\n      <mat-card-title class=\"m0\">Rentals available</mat-card-title>\r\n      <button *ngIf=\"user!.admin\" mat-raised-button color=\"primary\" routerLink=\"create\">\r\n        <mat-icon>add</mat-icon>\r\n        <span class=\"ml1\">Create</span>\r\n      </button>\r\n    </mat-card-header>\r\n    <div class=\"items mt2\" fxLayout=\"row wrap\" fxLayout.lt-md=\"column\">\r\n      <mat-card class=\"item\" *ngFor=\"let session of (sessions$ | async)\" fxFlex>\r\n        <mat-card-header>\r\n          <mat-card-title>{{ session.name }}</mat-card-title>\r\n          <mat-card-subtitle>\r\n            Session on {{ session.date | date: 'longDate'}}\r\n          </mat-card-subtitle>\r\n        </mat-card-header>\r\n        <div mat-card-image fxLayoutAlign=\"center center\">\r\n          <img class=\"picture\" src=\"assets/sessions.png\" alt=\"Yoga session\">\r\n        </div>\r\n        <mat-card-content>\r\n          <p>\r\n            {{ session.description }}\r\n          </p>\r\n        </mat-card-content>\r\n        <mat-card-actions>\r\n          <button mat-raised-button color=\"primary\" [routerLink]=\"['detail',session.id]\">\r\n            <mat-icon>search</mat-icon>\r\n            <span class=\"ml1\">Detail</span>\r\n          </button>\r\n          <button *ngIf=\"user!.admin\" mat-raised-button color=\"primary\"\r\n                  [routerLink]=\"['update',session.id]\">\r\n            <mat-icon>edit</mat-icon>\r\n            <span class=\"ml1\">Edit</span>\r\n          </button>\r\n        </mat-card-actions>\r\n      </mat-card>\r\n    </div>\r\n  </mat-card>\r\n</div>\r\n",
@@ -16693,10 +16693,10 @@
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "3caf604cb29b7f6aa186d62512beec731a690720"
+    "hash": "aa6a8c98bfd72924e155286b5fa5adb7944b9156"
   },
-  "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\sessions-routing.module.ts": {
-    "path": "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\sessions-routing.module.ts",
+  "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\sessions\\sessions-routing.module.ts": {
+    "path": "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\sessions\\sessions-routing.module.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -16858,22 +16858,22 @@
       }
     },
     "s": {
-      "0": 8,
-      "1": 8,
-      "2": 8,
-      "3": 7,
-      "4": 8,
-      "5": 8,
-      "6": 8
+      "0": 16,
+      "1": 16,
+      "2": 16,
+      "3": 16,
+      "4": 16,
+      "5": 16,
+      "6": 16
     },
     "f": {
-      "0": 8,
-      "1": 7
+      "0": 16,
+      "1": 16
     },
     "b": {
       "0": [
-        7,
-        7
+        16,
+        16
       ]
     },
     "inputSourceMap": {
@@ -16893,17 +16893,17 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\sessions-routing.module.ts"
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\sessions\\sessions-routing.module.ts"
       ],
       "sourcesContent": [
         "import { NgModule } from '@angular/core';\r\nimport { RouterModule, Routes } from '@angular/router';\r\nimport { DetailComponent } from './components/detail/detail.component';\r\nimport { FormComponent } from './components/form/form.component';\r\nimport { ListComponent } from './components/list/list.component';\r\n\r\nconst routes: Routes = [\r\n  { path: '', title: 'Sessions', component: ListComponent },\r\n  { path: 'detail/:id', title: 'Sessions - detail', component: DetailComponent },\r\n  { path: 'create', title: 'Sessions - create', component: FormComponent },\r\n  { path: 'update/:id', title: 'Sessions - update', component: FormComponent }\r\n];\r\n\r\n@NgModule({\r\n  imports: [RouterModule.forChild(routes)],\r\n  exports: [RouterModule]\r\n})\r\nexport class SessionsRoutingModule {\r\n}\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "840ab59c3d13cf6f623a5d9d396d466524bffce7"
+    "hash": "e7d5563b3905b1eca89cceb56fb48a1cd18cb6cc"
   },
-  "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\sessions.module.ts": {
-    "path": "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\sessions.module.ts",
+  "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\sessions\\sessions.module.ts": {
+    "path": "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\sessions\\sessions.module.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -17075,23 +17075,23 @@
       }
     },
     "s": {
-      "0": 8,
-      "1": 8,
-      "2": 8,
-      "3": 8,
-      "4": 7,
-      "5": 8,
-      "6": 8,
-      "7": 8
+      "0": 16,
+      "1": 16,
+      "2": 16,
+      "3": 16,
+      "4": 16,
+      "5": 16,
+      "6": 16,
+      "7": 16
     },
     "f": {
-      "0": 8,
-      "1": 7
+      "0": 16,
+      "1": 16
     },
     "b": {
       "0": [
-        7,
-        7
+        16,
+        16
       ]
     },
     "inputSourceMap": {
@@ -17116,13 +17116,13 @@
       ],
       "sourceRoot": "",
       "sources": [
-        "C:\\Users\\gdaumer\\Workdir\\Openclassrooms\\Projet 5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\sessions.module.ts"
+        "D:\\WORKDIR\\OC\\p5\\Test-Full-Stack-App\\front\\src\\app\\features\\sessions\\sessions.module.ts"
       ],
       "sourcesContent": [
         "import { NgModule } from '@angular/core';\r\nimport { CommonModule, registerLocaleData } from '@angular/common';\r\nimport { FlexLayoutModule } from '@angular/flex-layout';\r\nimport { ReactiveFormsModule } from '@angular/forms';\r\nimport { MatButtonModule } from '@angular/material/button';\r\nimport { MatCardModule } from '@angular/material/card';\r\nimport { MatFormFieldModule } from '@angular/material/form-field';\r\nimport { MatIconModule } from '@angular/material/icon';\r\nimport { MatInputModule } from '@angular/material/input';\r\nimport { MatSelectModule } from '@angular/material/select';\r\nimport { MatSnackBarModule } from '@angular/material/snack-bar';\r\nimport { ListComponent } from './components/list/list.component';\r\nimport { FormComponent } from './components/form/form.component';\r\nimport { DetailComponent } from './components/detail/detail.component';\r\nimport { SessionsRoutingModule } from './sessions-routing.module';\r\nimport localeFr from '@angular/common/locales/fr';\r\nregisterLocaleData(localeFr);\r\n\r\nconst materialModules = [\r\n  MatButtonModule,\r\n  MatCardModule,\r\n  MatFormFieldModule,\r\n  MatIconModule,\r\n  MatInputModule,\r\n  MatSnackBarModule,\r\n  MatSelectModule\r\n];\r\n\r\n@NgModule({\r\n  declarations: [\r\n    ListComponent,\r\n    FormComponent,\r\n    DetailComponent\r\n  ],\r\n  imports: [\r\n    CommonModule,\r\n    FlexLayoutModule,\r\n    ReactiveFormsModule,\r\n    SessionsRoutingModule,\r\n    ...materialModules\r\n  ]\r\n})\r\nexport class SessionsModule { }\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "66f12ba417f8327ba4d8b1aaa71af065fb94ffc2"
+    "hash": "67eb83244a92b13c09b89c71371cccb62886a944"
   }
 }

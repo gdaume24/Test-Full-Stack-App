@@ -35,7 +35,7 @@ it("Press 'Detail' button, session informations are shown correctly. Verify dele
   cy.get('input[formControlName=email]').type(this.user.email);
   cy.get('input[formControlName=password]').type(this.user.password);
   cy.get('button[type=submit]').click();
-  cy.get('mat-card:nth-child(1)').scrollIntoView().contains('Detail').click();
+  cy.get('mat-card:nth-child(1)').contains('Detail').scrollIntoView().click();
   cy.get('h1').contains(this.session1Data.name, { matchCase: false });
   cy.get('mat-card-subtitle').contains(
     `${this.teacher1.firstName} ${this.teacher1.lastName}`,
